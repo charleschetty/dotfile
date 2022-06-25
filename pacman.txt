@@ -163,6 +163,7 @@ filesystem
 findutils
 firefox
 firewalld
+fish
 flac
 flameshot
 flashrom
