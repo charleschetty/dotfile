@@ -1,0 +1,9 @@
+set selection-clipboard clipboard
+set recolor true
+
+set recolor-darkcolor "rgba(236, 239, 244, 0.8)"
+set default-bg "rgba(35, 39, 49, 0.6)"
+#set recolor-lightcolor "rgba(39, 43, 49, 0.7)"
+set recolor-lightcolor "rgba(35, 39, 49, 0.5)"
+set guioptions ""
+
