@@ -37,6 +37,7 @@ bindsym $mod+Return workspace $ws1; exec --no-startup-id alacritty
 
 bindsym $mod+w exec --no-startup-id rofi -show drun
 
+bindsym $mod+b exec --no-startup-id dmenu-bluetooth
 # switching window with win+tab
 bindsym $mod+Tab exec --no-startup-id rofi -show window
 
@@ -226,7 +227,7 @@ exec --no-startup-id xautolock -time 5 -locker '/usr/bin/betterlockscreen --lock
 # exec_always --no-startup-id pulseaudio --start
 # exec_always --no-startup-id lxpolkit
 exec_always --no-startup-id feh --bg-fill ~/Pictures/nordicdarker.jpg  
-# exec_always --no-startup-id picom --config ~/.config/picom/picom.conf --experimental-backends
+#exec_always --no-startup-id picom --config ~/.config/picom/picom.conf --experimental-backends
 
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf.old 
 exec_always --no-startup-id fcitx5
