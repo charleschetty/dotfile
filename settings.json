@@ -1,0 +1,101 @@
+{
+    "workbench.colorTheme": "Nord Deep",
+    "glassit-linux.opacity": 80,
+    "editor.fontSize": 16,
+    "workbench.iconTheme": "vscode-great-icons",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.codeLensFontFamily": "JetBrains Mono",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.statusBar.visible": false,
+    "editor.renderWhitespace": "none",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c17",
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.menuBarVisibility": "toggle",
+    "rust-analyzer.experimental.procAttrMacros": false,
+    "rust-analyzer.hoverActions.debug": false,
+    "rust-analyzer.hoverActions.run": false,
+    "rust-analyzer.inlayHints.enable": false,
+    "rust-analyzer.inlayHints.renderColons": false,
+    "rust-analyzer.hoverActions.implementations": false,
+    "rust-analyzer.lens.implementations": false,
+    "workbench.enableExperiments": false,
+    "jupyter.experiments.enabled": false,
+    "python.experiments.enabled": false,
+    "Lua.telemetry.enable": false,
+    "editor.matchBrackets": "never",
+    "latex-workshop.view.pdf.viewer": "external",
+    "latex-workshop.latex.tools": [
+
+  
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+       {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ],
+        },
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name":"xelatex",
+            "tools": [
+                "xelatex"
+            ],
+        },
+        {
+            "name":"pdflatex",
+            "tools": [
+                "pdflatex"
+            ],
+
+        },
+        {
+            "name":"xe->bib->xe->xe",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex",
+            ],
+        },
+    ],
+    "workbench.activityBar.visible": false,
+  
+    // "http.proxy": "http://127.0.0.1:7890",
+    // "C_Cpp.intelliSenseEngine": "Disabled",
+    // "C_Cpp.autocomplete": "Disabled",  // So you don't get autocomplete from both extensions.
+    // "C_Cpp.errorSquiggles": "Disabled", // So you don't get error squiggles from both extensions (clangd's seem to be more reliable anyway).
+    
+    // "clangd.arguments": ["-log=verbose", "-pretty", "--background-index", "--compile-commands-dir=/path/to/your/compile_commands_dir/"]
+
+
+
+
+}
