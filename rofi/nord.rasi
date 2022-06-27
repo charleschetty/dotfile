@@ -51,6 +51,7 @@ window {
     padding: 10px;
     border:  0px;
     border-radius: 6px;
+    width:      700px;
 
     background-color: @transparent;
     spacing: 0;
