@@ -162,16 +162,16 @@ bindsym $mod+r mode "  "
 mode "  " {
     # pressing left and up will shrink the window's width and height
     # pressing right and down will grow the window's width and height
-    bindsym $left   resize shrink width 10 px or 10 ppt
-    bindsym $down   resize grow height 10 px or 10 ppt
-    bindsym $up     resize shrink height 10 px or 10 ppt
-    bindsym $right  resize grow width 10 px or 10 ppt
+   # bindsym $left   resize shrink width 4 px or 4 ppt
+   # bindsym $down   resize grow height 4 px or 4 ppt
+   # bindsym $up     resize shrink height 4 px or 4 ppt
+   # bindsym $right  resize grow width 4 px or 4 ppt
 
     # same bindings, but for the arrow keys
-    bindsym Left    resize shrink width 10 px or 10 ppt
-    bindsym Down    resize grow height 10 px or 10 ppt
-    bindsym Up      resize shrink height 10 px or 10 ppt
-    bindsym Right   resize grow width 10 px or 10 ppt
+    bindsym Left    resize shrink width 4 px or 4 ppt
+    bindsym Down    resize grow height 4 px or 4 ppt
+    bindsym Up      resize shrink height 4 px or 4 ppt
+    bindsym Right   resize grow width 4 px or 4 ppt
 
     # back to normal: Enter or win+r
     bindsym Return mode "default"
@@ -208,7 +208,7 @@ for_window [class="Qalculate-gtk"] floating enable
 for_window [class="Nitrogen"] floating enable
 for_window [class="Steam"] floating enable
 for_window [class="words-picker"] floating enable
-for_window [class="Icalingua++"] floating enable
+for_window [class="icalingua"] floating enable
 for_window [class="stacer"] floating enable
 for_window [class="TelegramDesktop"] floating enable
 # i3-gaps
