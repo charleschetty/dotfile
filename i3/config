@@ -1,6 +1,7 @@
 # font for window titles and bar
-font pango:Source Sans Pro 10
+# font pango:Source Sans Pro 10
 
+font pango:Noto Sans 10
 # use win key
 set $mod Mod4
 
@@ -40,6 +41,9 @@ bindsym $mod+w exec --no-startup-id rofi -show drun
 bindsym $mod+b exec --no-startup-id dmenu-bluetooth
 # switching window with win+tab
 bindsym $mod+Tab exec --no-startup-id rofi -show window
+
+
+bindsym $mod+n exec --no-startup-id networkmanager_dmenu
 
 # kill focused window
 bindsym $mod+q kill
@@ -221,12 +225,11 @@ gaps outer 2
 # include local.conf
 
 # startup applications
-# exec_always --no-startup-id xautolock -time 10 -locker "i3lock"
 exec --no-startup-id xautolock -time 5 -locker '/usr/bin/betterlockscreen --lock'
-# exec_always --no-startup-id nm-applet
-# exec_always --no-startup-id pulseaudio --start
-# exec_always --no-startup-id lxpolkit
-exec_always --no-startup-id feh --bg-fill ~/Pictures/nordicdarker.jpg  
+# exec_always --no-startup-id feh --bg-fill ~/Pictures/nordicdarker.jpg  
+
+#exec_always --no-startup-id feh --bg-fill ~/Pictures/nord.png
+exec_always --no-startup-id feh --bg-fill ~/Pictures/ign_lonely-man.png
 #exec_always --no-startup-id picom --config ~/.config/picom/picom.conf --experimental-backends
 
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf.old 
