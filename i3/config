@@ -6,16 +6,30 @@ font pango:Noto Sans 10
 set $mod Mod4
 
 # define names for workspaces
-set $ws1    "1:   Terminal "
-set $ws2    "2:   Code "
-set $ws3    "3:   Chromium "
-set $ws4    "4:   Files "
-set $ws5    "5:   Documents "
-set $ws6    "6:   Media "
-set $ws7    "7:   Design "
-set $ws8    "8:   Chat "
-set $ws9    "9:   General "
-set $ws10   "10:   Settings "
+#set $ws1    "1:   Terminal "
+
+#set $ws2    "2:   Code "
+#set $ws3    "3:   Chromium "
+#set $ws4    "4:   Files "
+#set $ws5    "5:   Documents "
+#set $ws6    "6:   Media "
+#set $ws7    "7:   Design "
+#set $ws8    "8:   Chat "
+#set $ws9    "9:   General "
+#set $ws10   "10:   Settings "
+
+set $ws1    "1"
+
+set $ws2    "2"
+set $ws3    "3"
+set $ws4    "4"
+set $ws5    "5"
+set $ws6    "6"
+set $ws7    "7"
+set $ws8    "8"
+set $ws9    "9"
+set $ws10   "10"
+
 
 # use $mod+Mouse to drag floating windows to their wanted position
 floating_modifier $mod
@@ -229,7 +243,7 @@ exec --no-startup-id xautolock -time 5 -locker '/usr/bin/betterlockscreen --lock
 # exec_always --no-startup-id feh --bg-fill ~/Pictures/nordicdarker.jpg  
 
 #exec_always --no-startup-id feh --bg-fill ~/Pictures/nord.png
-exec_always --no-startup-id feh --bg-fill ~/Pictures/ign_lonely-man.png
+exec_always --no-startup-id feh --bg-fill ~/Pictures/ign_lonely-man1.png
 #exec_always --no-startup-id picom --config ~/.config/picom/picom.conf --experimental-backends
 
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf.old 
