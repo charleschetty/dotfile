@@ -1,10 +1,12 @@
 # dotfile
 
+i3 screenshot:
+
 ![](README.assets/Screenshot_20220625_171612.png)
 
-![](README.assets/Screenshot_20220629_155005.png)
+![](README.assets/Screenshot_20220629_203220.png)
 
-
+kde screenshot:
 
 ![1](https://raw.githubusercontent.com/charleschetty/picturebed/main/picture/Screenshot_20220331_224520.png)
 
