@@ -42,6 +42,9 @@ alias du="dust"
 alias e="exa --icons"
 alias vi3="vim ~/.config/i3/config"
 alias top="gotop"
+alias p="procs"
+alias t="rldr"
+alias hl="helix"
 n
 
 
@@ -56,9 +59,10 @@ fi
 ## Settings for umask
 setopt appendhistory
 setopt appendhistory
-setopt INC_APPEND_HISTORY  
+setopt INC_APPEND_HISTORY
 setopt SHARE_HISTORY
 
+eval "$(zoxide init zsh)"
 source ~/.powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
