@@ -1,6 +1,16 @@
 call plug#begin()
 Plug 'https://github.com/enml/nord-vim.git'
 Plug 'https://github.com/itchyny/vim-cursorword.git'
+Plug 'godlygeek/tabular'
+Plug 'preservim/vim-markdown'
+Plug 'rust-lang/rust.vim'
+Plug 'mhinz/vim-startify'
+Plug 'vim-airline/vim-airline'
+Plug 'preservim/nerdtree'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
+Plug 'ryanoasis/vim-devicons'
+Plug 'junegunn/vim-slash'
 call plug#end()
 
 
@@ -38,3 +48,5 @@ set listchars=tab:»·,trail:·
 set list
 set wildmenu
 set wildmode=longest:list,full
+let mapleader = " "   
+map <leader>n :NERDTreeToggle<CR>
