@@ -45,7 +45,10 @@ alias top="gotop"
 alias p="procs"
 alias t="rldr"
 alias hl="helix"
-n
+alias ne="neovide"
+alias nv="neovim"
+1n
+
 
 
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
