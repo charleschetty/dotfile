@@ -47,6 +47,9 @@ alias t="rldr"
 alias hl="helix"
 alias ne="neovide"
 alias nv="neovim"
+##alias cat="bat"
+##alias top="btm"
+##alias grep="rg"
 1n
 
 
