@@ -14,7 +14,8 @@ code_runner.setup {
 	filetype = {
 		java = "cd $dir && javac $fileName && java $fileNameWithoutExt",
 		python = "cd $dir && python $fileName",
-		rust = "cd $dir && rustc $fileName && $dir/$fileNameWithoutExt",
+		rust = "cd $dir && cargo run",
+		--rust = "cd $dir && rustc $fileName && $dir/$fileNameWithoutExt",
 		javascript = "node",
 		c = "cd $dir && gcc $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt",
 		cpp = "cd $dir && g++ $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt",
