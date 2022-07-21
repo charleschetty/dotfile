@@ -53,14 +53,14 @@ return packer.startup(function(use)
 	use("akinsho/bufferline.nvim")
 	use("moll/vim-bbye")
 	use({
-		"nvim-lualine/lualine.nvim"
+		"nvim-lualine/lualine.nvim",
 	})
 	use("ahmedkhalf/project.nvim")
 	use("lewis6991/impatient.nvim")
 	use("lukas-reineke/indent-blankline.nvim")
-  use 'goolord/alpha-nvim'
-  use "antoinemadec/FixCursorHold.nvim" 
-  use "folke/which-key.nvim"
+	use("goolord/alpha-nvim")
+	use("antoinemadec/FixCursorHold.nvim")
+	use("folke/which-key.nvim")
 
 	use("hrsh7th/nvim-cmp") -- The completion plugin
 	use("hrsh7th/cmp-buffer") -- buffer completions
@@ -92,12 +92,20 @@ return packer.startup(function(use)
 	use("JoosepAlviste/nvim-ts-context-commentstring")
 	--     installer
 	-- Automatically set up your configuration after cloning packer.nvim
-  --
+	--
 	-- Put this at the end after all plugins
-	
-  use 'CRAG666/code_runner.nvim'
 
-  if PACKER_BOOTSTRAP then
+	use("CRAG666/code_runner.nvim")
+	use("iamcco/mathjax-support-for-mkdp")
+	use({
+	 	"iamcco/markdown-preview.nvim",
+	 	run = "cd app && npm install",
+	 	setup = function()
+	 		vim.g.mkdp_filetypes = { "markdown" }
+	 	end,
+	 	ft = { "markdown" },
+	 })
+	if PACKER_BOOTSTRAP then
 		require("packer").sync()
 	end
 end)

@@ -17,13 +17,4 @@ require "user.indentline"
 require "user.alpha"
 require "user.whichkey"
 require "user.code_runner"
-
--- require('code_runner').setup({
---   -- put here the commands by filetype
---   filetype = {
--- 		java = "cd $dir && javac $fileName && java $fileNameWithoutExt",
--- 		python = "python3 -u",
--- 		typescript = "deno run",
--- 		rust = "cd $dir && rustc $fileName && $dir/$fileNameWithoutExt"
--- 	},
--- })
+vim.g.mkdp_browser = 'firefox'
