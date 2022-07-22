@@ -1,0 +1,1526 @@
+
+---
+name: luna_pinyin.mine4
+version: "2020.10.19"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+阿里巴巴	a li ba ba	1
+阿帕网	a pa wang	1
+爱词霸	ai ci ba	1
+爱国者黑客	ai guo zhe hei ke	1
+爱卡巴社区	ai ka ba she qu	1
+埃里克	ai li ke	1
+艾丽莎病毒	ai li sha bing du	1
+安博士	an bo shi	1
+安博士杀毒软件	an bo shi sha du ruan jian	1
+安博士在线杀毒	an bo shi zai xian sha du	1
+安德夫木马	an de fu mu ma	1
+暗黑之门	an hei zhi men	1
+安焦	an jiao	1
+按内容存取存储器	an nei rong cun qu cun chu qi	1
+安全标号	an quan biao hao	1
+安全病毒库	an quan bing du ku	1
+安全操作系统	an quan cao zuo xi tong	1
+安全策略	an quan ce lue	1
+安全措施	an quan cuo shi	1
+安全等级	an quan deng ji	1
+安全电子交易	an quan dian zi jiao yi	1
+安全功能评估	an quan gong neng ping gu	1
+安全过滤器	an quan guo lv qi	1
+安全检查	an quan jian cha	1
+安全焦点	an quan jiao dian	1
+安全控制	an quan kong zhi	1
+安全类	an quan lei	1
+安全路由器	an quan lu you qi	1
+安全论坛	an quan lun tan	1
+安全模型	an quan mo xing	1
+安全内核	an quan nei he	1
+安全认证授权	an quan ren zheng shou quan	1
+安全审计	an quan shen ji	1
+安全识别	an quan shi bie	1
+安全事件	an quan shi jian	1
+安全套接层	an quan tao jie ceng	1
+安全停机	an quan ting ji	1
+安全网	an quan wang	1
+安全网关	an quan wang guan	1
+安全卫士	an quan wei shi	1
+安全性	an quan xing	1
+安全许可	an quan xu ke	1
+安全域	an quan yu	1
+安全运行模式	an quan yun xing mo shi	1
+安全中国	an quan zhong guo	1
+安全中心	an quan zhong xin	1
+安全资讯	an quan zi xun	1
+安天盾防火墙	an tian dun fang huo qiang	1
+安天防线	an tian fang xian	1
+安铁诺	an tie nuo	1
+安铁诺杀毒软件	an tie nuo sha du ruan jian	1
+按序	an xu	1
+按序检测	an xu jian ce	1
+按序提交	an xu ti jiao	1
+按序执行	an xu zhi xing	1
+安装处理控制	an zhuang chu li kong zhi	1
+安装和检验阶段	an zhuang he jian yan jie duan	1
+安装技术	an zhuang ji shu	1
+暗组	an zu	1
+傲游	ao you	1
+傲游浏览器	ao you liu lan qi	1
+八八	ba ba	1
+八比特组	ba bi te zu	1
+八叉树	ba cha shu	1
+八皇后问题	ba huang hou wen ti	1
+八进制	ba jin zhi	1
+八进制数字	ba jin zhi shu zi	1
+巴克斯	ba ke si	1
+巴克斯范式	ba ke si fan shi	1
+霸王大陆	ba wang da lu	1
+八位	ba wei	1
+吧主	ba zhu	1
+白板服务	bai ban fu wu	1
+百度	bai du	1
+白鹿书院	bai lu shu yuan	1
+百堂互联	bai tang hu lian	1
+白消耗周期	bai xiao hao zhou qi	1
+百阅	bai yue	1
+白噪声发生器	bai zao sheng fa sheng qi	1
+百兆网卡	bai zhao wang ka	1
+版本编程	ban ben bian cheng	1
+版本管理	ban ben guan li	1
+版本号	ban ben hao	1
+版本控制	ban ben kong zhi	1
+版本升级	ban ben sheng ji	1
+半导体存储器	ban dao ti cun chu qi	1
+办公信息系统	ban gong xin xi xi tong	1
+办公自动化	ban gong zi dong hua	1
+办公自动化模型	ban gong zi dong hua mo xing	1
+版权	ban quan	1
+版主	ban zhu	1
+绑定	bang ding	1
+宝贝坦克	bao bei tan ke	1
+保存网页	bao cun wang ye	1
+包封	bao feng	1
+暴风影音	bao feng ying yin	1
+包过滤	bao guo lv	1
+包加密	bao jia mi	1
+包交换	bao jiao huan	1
+包交换公用数据网	bao jiao huan gong yong shu ju wang	1
+包交换数据网	bao jiao huan shu ju wang	1
+包交换网	bao jiao huan wang	1
+包交换总线	bao jiao huan zong xian	1
+保留内存	bao liu nei cun	1
+保留页选项	bao liu ye xuan xiang	1
+保留站	bao liu zhan	1
+保留字	bao liu zi	1
+包式终端	bao shi zhong duan	1
+被动查询	bei dong cha xun	1
+贝尔	bei er	1
+备份	bei fen	1
+备份过程	bei fen guo cheng	1
+备份文件	bei fen wen jian	1
+备份与恢复	bei fen yu hui fu	1
+备件	bei jian	1
+北京租房	bei jing zu fang	1
+北美洲互联网号码注册管理机构	bei mei zhou hu lian wang hao ma zhu ce guan li ji gou	1
+备用	bei yong	1
+备用冗余	bei yong rong yu	1
+备用替代冗余	bei yong ti dai rong yu	1
+备用系统	bei yong xi tong	1
+本地安全策略	ben di an quan ce lue	1
+碧海银沙	bi hai yin sha	1
+笔记本式计算机	bi ji ben shi ji suan ji	1
+笔数	bi shu	1
+笔顺	bi shun	1
+比特彗星	bi te hui xing	1
+比特精灵	bi te jing ling	1
+比特率	bi te lv	1
+编程	bian cheng	1
+编程开发	bian cheng kai fa	1
+编程语言	bian cheng yu yan	1
+编辑程序	bian ji cheng xu	1
+边界路由器	bian jie lu you qi	1
+边界网关	bian jie wang guan	1
+边界网关协议	bian jie wang guan xie yi	1
+边界像素	bian jie xiang su	1
+编码	bian ma	1
+便携式计算机	bian xie shi ji suan ji	1
+编译	bian yi	1
+编译程序	bian yi cheng xu	1
+变种	bian zhong	1
+飚车	biao che	1
+标准版	biao zhun ban	1
+冰岛杀毒软件	bing dao sha du ruan jian	1
+冰岛杀毒软件下载	bing dao sha du ruan jian xia zai	1
+病毒	bing du	1
+病毒词汇	bing du ci hui	1
+病毒防治	bing du fang zhi	1
+病毒库	bing du ku	1
+病毒式营销	bing du shi ying xiao	1
+病毒信息	bing du xin xi	1
+病毒疫情监测	bing du yi qing jian ce	1
+冰盾	bing dun	1
+并发进程	bing fa jin cheng	1
+并行存储器	bing xing cun chu qi	1
+并行任务	bing xing ren wu	1
+博客	bo ke	1
+播客	bo ke	1
+博客中国	bo ke zhong guo	1
+波特后门	bo te hou men	1
+布里斯托探险队	bu li si tuo tan xian dui	1
+彩信铃声	cai xin ling sheng	1
+操作系统	cao zuo xi tong	1
+操作系统病毒	cao zuo xi tong bing du	1
+操作系统处理器	cao zuo xi tong chu li qi	1
+操作系统功能	cao zuo xi tong gong neng	1
+操作系统构件	cao zuo xi tong gou jian	1
+查杀木马工具	cha sha mu ma gong ju	1
+查找	cha zhao	1
+超级计算机	chao ji ji suan ji	1
+超级跑跑	chao ji pao pao	1
+超级兔子	chao ji tu zi	1
+超级武林大富翁	chao ji wu lin da fu weng	1
+超级舞者	chao ji wu zhe	1
+超级旋风	chao ji xuan feng	1
+超级巡警	chao ji xun jing	1
+超级巡警杀毒软件	chao ji xun jing sha du ruan jian	1
+超级巡警杀毒软件下载	chao ji xun jing sha du ruan jian xia zai	1
+超级乐者	chao ji yue zhe	1
+超链接	chao lian jie	1
+超媒体	chao mei ti	1
+超时控制	chao shi kong zhi	1
+超文本	chao wen ben	1
+超文本传送协议	chao wen ben chuan song xie yi	1
+橙色八月	cheng se ba yue	1
+城域网	cheng yu wang	1
+赤壁	chi bi	1
+重写器病毒	chong xie qi bing du	1
+初始化动态链接库	chu shi hua dong tai lian jie ku	1
+穿孔贼木马	chuan kong zei mu ma	1
+传奇世界	chuan qi shi jie	1
+传奇终结者木马	chuan qi zhong jie zhe mu ma	1
+传输错误	chuan shu cuo wu	1
+传输控制协议	chuan shu kong zhi xie yi	1
+春秋	chun qiu	1
+纯真版	chun zhen ban	1
+词霸豆豆	ci ba dou dou	1
+磁碟机蠕虫	ci die ji ru chong	1
+磁盘精灵蠕虫	ci pan jing ling ru chong	1
+存储器带宽	cun chu qi dai kuan	1
+存储器总线	cun chu qi zong xian	1
+存储转发网	cun chu zhuan fa wang	1
+存档网点	cun dang wang dian	1
+打包安全	da bao an quan	1
+大范宁	da fan ning	1
+大话西游	da hua xi you	1
+大话西游木马	da hua xi you mu ma	1
+搭线窃听	da xian qie ting	1
+大智慧	da zhi hui	1
+大蜘蛛	da zhi zhu	1
+带环立方体网络	dai huan li fang ti wang luo	1
+带宽	dai kuan	1
+带宽速率	dai kuan su lv	1
+代理脚本	dai li jiao ben	1
+代理木马	dai li mu ma	1
+代理蠕虫	dai li ru chong	1
+代理释放器	dai li shi fang qi	1
+单边网络	dan bian wang luo	1
+单机版	dan ji ban	1
+单缆宽带局域网	dan lan kuan dai ju yu wang	1
+当当图书	dang dang tu shu	1
+当前帐户	dang qian zhang hu	1
+登陆器	deng lu qi	1
+登录帐户	deng lu zhang hu	1
+第二代计算机	di er dai ji suan ji	1
+第九城市	di jiu cheng shi	1
+第三代计算机	di san dai ji suan ji	1
+第四代计算机	di si dai ji suan ji	1
+第五代计算机	di wu dai ji suan ji	1
+第一代计算机	di yi dai ji suan ji	1
+地域分布	di yu fen bu	1
+地址解析	di zhi jie xi	1
+点到点	dian dao dian	1
+点对点连接	dian dui dian lian jie	1
+点对点通信	dian dui dian tong xin	1
+点对点协议	dian dui dian xie yi	1
+点对多点通信	dian dui duo dian tong xin	1
+电话号码映射即电话域名	dian hua hao ma ying she ji dian hua yu ming	1
+点击付费	dian ji fu fei	1
+点击器	dian ji qi	1
+电路传送模式	dian lu chuan song mo shi	1
+电路交换	dian lu jiao huan	1
+电路交换公用数据网	dian lu jiao huan gong yong shu ju wang	1
+电路交换数据网	dian lu jiao huan shu ju wang	1
+电路交换网	dian lu jiao huan wang	1
+电脑	dian nao	1
+电脑之家	dian nao zhi jia	1
+电影魔方	dian ying mo fang	1
+电子计算机	dian zi ji suan ji	1
+电子监视	dian zi jian shi	1
+电子金融	dian zi jin rong	1
+电子媒体	dian zi mei ti	1
+电子签名	dian zi qian ming	1
+电子情报	dian zi qing bao	1
+电子商务	dian zi shang wu	1
+电子设计规则	dian zi she ji gui ze	1
+电子设计自动化	dian zi she ji zi dong hua	1
+电子市场	dian zi shi chang	1
+电子书籍	dian zi shu ji	1
+电子数据交换	dian zi shu ju jiao huan	1
+电子图书馆	dian zi tu shu guan	1
+电子文本	dian zi wen ben	1
+电子消息处理	dian zi xiao xi chu li	1
+电子银行业务	dian zi yin hang ye wu	1
+电子邮件	dian zi you jian	1
+电子邮件别名	dian zi you jian bie ming	1
+电子邮件地址	dian zi you jian di zhi	1
+电子杂志	dian zi za zhi	1
+电子照相印刷机	dian zi zhao xiang yin shua ji	1
+电子资金转账系统	dian zi zi jin zhuan zhang xi tong	1
+顶级域	ding ji yu	1
+定时查杀	ding shi cha sha	1
+定时任务	ding shi ren wu	1
+顶贴	ding tie	1
+丢丢球	diu diu qiu	1
+动画教程	dong hua jiao cheng	1
+动态空间	dong tai kong jian	1
+动态网络	dong tai wang luo	1
+动态主机配置协议	dong tai zhu ji pei zhi xie yi	1
+毒霸	du ba	1
+读书网	du shu wang	1
+毒眼杀毒软件	du yan sha du ruan jian	1
+端点	duan dian	1
+端点编码	duan dian bian ma	1
+端端加密	duan duan jia mi	1
+端端密钥	duan duan mi yue	1
+端对端传送	duan dui duan chuan song	1
+对等的	dui deng de	1
+对准网络	dui zhun wang luo	1
+多播主干网	duo bo zhu gan wang	1
+多点连接	duo dian lian jie	1
+多点路由	duo dian lu you	1
+多点通信	duo dian tong xin	1
+多点通信服务	duo dian tong xin fu wu	1
+多端口存储器	duo duan kou cun chu qi	1
+多对多联系	duo dui duo lian xi	1
+多对一联系	duo dui yi lian xi	1
+多国语言版	duo guo yu yan ban	1
+多级网络	duo ji wang luo	1
+多扩展名	duo kuo zhan ming	1
+多媒体类	duo mei ti lei	1
+多任务	duo ren wu	1
+多任务处理	duo ren wu chu li	1
+多数据流	duo shu ju liu	1
+多通道	duo tong dao	1
+多通道传输	duo tong dao chuan shu	1
+多线程	duo xian cheng	1
+多线程处理	duo xian cheng chu li	1
+多引擎	duo yin qing	1
+多终端监控程序	duo zhong duan jian kong cheng xu	1
+恶毒战士病毒	e du zhan shi bing du	1
+恶意程序	e yi cheng xu	1
+恶意软件清理助手	e yi ruan jian qing li zhu shou	1
+二级域	er ji yu	1
+二进制论坛	er jin zhi lun tan	1
+反病毒	fan bing du	1
+反病毒杀手木马	fan bing du sha shou mu ma	1
+反病毒杀手蠕虫	fan bing du sha shou ru chong	1
+反病毒终结者	fan bing du zhong jie zhe	1
+反病毒咨询	fan bing du zi xun	1
+反传网络	fan chuan wang luo	1
+范例检索网	fan li jian suo wang	1
+饭统论坛	fan tong lun tan	1
+反向局域网信道	fan xiang ju yu wang xin dao	1
+反向掩码	fan xiang yan ma	1
+翻译加百科	fan yi jia bai ke	1
+翻译软件	fan yi ruan jian	1
+防病毒	fang bing du	1
+防病毒程序	fang bing du cheng xu	1
+防护体系	fang hu ti xi	1
+防火墙	fang huo qiang	1
+防窃听	fang qie ting	1
+访问冲突	fang wen chong tu	1
+访问范畴	fang wen fan chou	1
+访问共享	fang wen gong xiang	1
+访问级别	fang wen ji bie	1
+访问局部性	fang wen ju bu xing	1
+访问局守性	fang wen ju shou xing	1
+访问矩阵	fang wen ju zhen	1
+访问控制	fang wen kong zhi	1
+访问控制字段	fang wen kong zhi zi duan	1
+访问类型	fang wen lei xing	1
+访问权	fang wen quan	1
+访问授权	fang wen shou quan	1
+访问特权	fang wen te quan	1
+访问统计	fang wen tong ji	1
+访问许可	fang wen xu ke	1
+访问周期	fang wen zhou qi	1
+防信息泄漏	fang xin xi xie lou	1
+仿真计算机	fang zhen ji suan ji	1
+仿真终端	fang zhen zhong duan	1
+费尔	fei er	1
+费尔个人防火墙	fei er ge ren fang huo qiang	1
+费尔托斯特杀毒软件	fei er tuo si te sha du ruan jian	1
+霏凡软件	fei fan ruan jian	1
+飞塔	fei ta	1
+飞塔杀毒软件	fei ta sha du ruan jian	1
+飞信	fei xin	1
+非洲互联网号码注册管理机构	fei zhou hu lian wang hao ma zhu ce guan li ji gou	1
+分布式操作系统	fen bu shi cao zuo xi tong	1
+分布式程序设计	fen bu shi cheng xu she ji	1
+分布式存储器	fen bu shi cun chu qi	1
+分布式多媒体	fen bu shi duo mei ti	1
+分布式算法	fen bu shi suan fa	1
+分布式网	fen bu shi wang	1
+分布式系统	fen bu shi xi tong	1
+分布式应用	fen bu shi ying yong	1
+分槽环网	fen cao huan wang	1
+分级网	fen ji wang	1
+分组层	fen zu ceng	1
+分组长度	fen zu chang du	1
+分组传送模式	fen zu chuan song mo shi	1
+分组交换公用数据网	fen zu jiao huan gong yong shu ju wang	1
+分组交换数据网	fen zu jiao huan shu ju wang	1
+分组交换网	fen zu jiao huan wang	1
+分组密码	fen zu mi ma	1
+分组式终端	fen zu shi zhong duan	1
+分组装拆器	fen zu zhuang chai qi	1
+凤凰卫视	feng huang wei shi	1
+风火之旅	feng huo zhi lv	1
+疯狂赛车	feng kuang sai che	1
+封神榜	feng shen bang	1
+风险投资	feng xian tou zi	1
+风行网络电影	feng xing wang luo dian ying	1
+封印传说	feng yin chuan shuo	1
+风云	feng yun	1
+副版主	fu ban zhu	1
+富甲西游	fu jia xi you	1
+附件发送	fu jian fa song	1
+服务比特率	fu wu bi te lv	1
+服务程序	fu wu cheng xu	1
+服务队列	fu wu dui lie	1
+服务发起者	fu wu fa qi zhe	1
+服务访问点	fu wu fang wen dian	1
+服务监控程序	fu wu jian kong cheng xu	1
+服务接入点	fu wu jie ru dian	1
+服务接受者	fu wu jie shou zhe	1
+服务例程	fu wu li cheng	1
+服务器	fu wu qi	1
+服务器模型	fu wu qi mo xing	1
+服务请求块	fu wu qing qiu kuai	1
+服务请求中断	fu wu qing qiu zhong duan	1
+服务数据单元	fu wu shu ju dan yuan	1
+服务提供者	fu wu ti gong zhe	1
+服务原语	fu wu yuan yu	1
+干线电缆	gan xian dian lan	1
+高级佩特里网	gao ji pei te li wang	1
+高级数据链路控制	gao ji shu ju lian lu kong zhi	1
+高级研究计划局网络	gao ji yan jiu ji hua ju wang luo	1
+搞笑贴图	gao xiao tie tu	1
+高性能计算和通信	gao xing neng ji suan he tong xin	1
+个人通信系统	ge ren tong xin xi tong	1
+个性时间	ge xing shi jian	1
+跟踪路由	gen zong lu you	1
+功夫世界	gong fu shi jie	1
+公共数据模型	gong gong shu ju mo xing	1
+公共网关接口	gong gong wang guan jie kou	1
+攻击	gong ji	1
+公平网	gong ping wang	1
+公文写作助手	gong wen xie zuo zhu shou	1
+共享操作系统	gong xiang cao zuo xi tong	1
+共享存储器	gong xiang cun chu qi	1
+共享段	gong xiang duan	1
+共享高速缓存	gong xiang gao su huan cun	1
+共享软件	gong xiang ruan jian	1
+共享上网	gong xiang shang wang	1
+共享锁	gong xiang suo	1
+共享文件	gong xiang wen jian	1
+公用数据网	gong yong shu ju wang	1
+工作信道状态	gong zuo xin dao zhuang tai	1
+工作页	gong zuo ye	1
+工作因子	gong zuo yin zi	1
+工作站	gong zuo zhan	1
+工作站机群	gong zuo zhan ji qun	1
+工作站网络	gong zuo zhan wang luo	1
+工作组计算	gong zuo zu ji suan	1
+古城热线	gu cheng re xian	1
+古城桌面	gu cheng zhuo mian	1
+骨干区	gu gan qu	1
+谷歌	gu ge	1
+谷歌金山词霸	gu ge jin shan ci ba	1
+谷歌浏览器	gu ge liu lan qi	1
+谷歌拼音输入法	gu ge pin yin shu ru fa	1
+故障访问	gu zhang fang wen	1
+故障诊断	gu zhang zhen duan	1
+故障诊断程序	gu zhang zhen duan cheng xu	1
+挂起进程	gua qi jin cheng	1
+挂起时间	gua qi shi jian	1
+挂起原语	gua qi yuan yu	1
+挂起状态	gua qi zhuang tai	1
+关键词搜索	guan jian ci sou suo	1
+管理员	guan li yuan	1
+关系网	guan xi wang	1
+广度优先搜索	guang du you xian sou suo	1
+广告程序	guang gao cheng xu	1
+广告位招商	guang gao wei zhao shang	1
+光盘版	guang pan ban	1
+光通	guang tong	1
+光影魔术手	guang ying mo shu shou	1
+光宇华夏	guang yu hua xia	1
+广域网	guang yu wang	1
+光之国度	guang zhi guo du	1
+广州视窗	guang zhou shi chuang	1
+硅谷动力	gui gu dong li	1
+硅谷下载	gui gu xia zai	1
+国际电信联盟	guo ji dian xin lian meng	1
+国际互联网协会	guo ji hu lian wang xie hui	1
+国际化域名即多语种域名	guo ji hua yu ming ji duo yu zhong yu ming	1
+国际域名	guo ji yu ming	1
+国家及地区顶级域	guo jia ji di qu ding ji yu	1
+国家级互联网注册管理机构	guo jia ji hu lian wang zhu ce guan li ji gou	1
+过滤	guo lv	1
+国内域名	guo nei yu ming	1
+国外黑客	guo wai hei ke	1
+哈哈乐园	ha ha le yuan	1
+哈哈笑话	ha ha xiao hua	1
+行业类别顶级域	hang ye lei bie ding ji yu	1
+好博客	hao bo ke	1
+浩方对战平台	hao fang dui zhan ping tai	1
+豪杰超级解霸	hao jie chao ji jie ba	1
+豪杰大眼睛	hao jie da yan jing	1
+豪杰视频通	hao jie shi pin tong	1
+豪杰音乐工作室	hao jie yin yue gong zuo shi	1
+合金战纪	he jin zhan ji	1
+和讯网	he xun wang	1
+黑洞后门	hei dong hou men	1
+黑客帝国	hei ke di guo	1
+黑客防线	hei ke fang xian	1
+黑客工具	hei ke gong ju	1
+黑客基地	hei ke ji di	1
+黑客教学	hei ke jiao xue	1
+黑客人物	hei ke ren wu	1
+黑客软件	hei ke ruan jian	1
+黑客手册	hei ke shou ce	1
+黑客网站	hei ke wang zhan	1
+黑马推荐金融街	hei ma tui jian jin rong jie	1
+黑马王子	hei ma wang zi	1
+黑名单库	hei ming dan ku	1
+黑软基地	hei ruan ji di	1
+黑色旋风	hei se xuan feng	1
+黑鹰红客基地	hei ying hong ke ji di	1
+黑炸弹蠕虫	hei zha dan ru chong	1
+很小很强大	hen xiao hen qiang da	1
+恒氏杀毒软件	heng shi sha du ruan jian	1
+宏病毒	hong bing du	1
+红客	hong ke	1
+红狼	hong lang	1
+红色女孩后门	hong se nv hai hou men	1
+红色战略	hong se zhan lue	1
+红太阳杀毒软件	hong tai yang sha du ruan jian	1
+后端网	hou duan wang	1
+后台	hou tai	1
+呼叫付费	hu jiao fu fei	1
+互联网	hu lian wang	1
+互联网安全	hu lian wang an quan	1
+互联网编号分配机构	hu lian wang bian hao fen pei ji gou	1
+互连网分组协议	hu lian wang fen zu xie yi	1
+互联网工程任务组	hu lian wang gong cheng ren wu zu	1
+互联网工程指导委员会	hu lian wang gong cheng zhi dao wei yuan hui	1
+互联网架构理事会	hu lian wang jia gou li shi hui	1
+互联网络	hu lian wang luo	1
+互联网名字与编号分配机构	hu lian wang ming zi yu bian hao fen pei ji gou	1
+互联网数据中心	hu lian wang shu ju zhong xin	1
+互联网研究工作组	hu lian wang yan jiu gong zuo zu	1
+互联网治理工作组	hu lian wang zhi li gong zuo zu	1
+华东黑客	hua dong hei ke	1
+华军软件	hua jun ruan jian	1
+华军杀毒软件下载	hua jun sha du ruan jian xia zai	1
+华为网络	hua wei wang luo	1
+华夏	hua xia	1
+华夏黑客联盟	hua xia hei ke lian meng	1
+华夏黑客同盟	hua xia hei ke tong meng	1
+华夏木马	hua xia mu ma	1
+换行	huan hang	1
+欢乐数码	huan le shu ma	1
+幻想	huan xiang	1
+换页	huan ye	1
+幻影后门	huan ying hou men	1
+环状网	huan zhuang wang	1
+黄金书屋	huang jin shu wu	1
+黄易	huang yi	1
+灰鸽子后门	hui ge zi hou men	1
+会话层	hui hua ceng	1
+会话密钥	hui hua mi yue	1
+会声会影	hui sheng hui ying	1
+回送	hui song	1
+回退	hui tui	1
+混洗交换	hun xi jiao huan	1
+混洗交换网络	hun xi jiao huan wang luo	1
+活动页	huo dong ye	1
+火狐	huo hu	1
+火狐浏览器	huo hu liu lan qi	1
+基本操作	ji ben cao zuo	1
+基本网系统	ji ben wang xi tong	1
+吉比特以太网	ji bi te yi tai wang	1
+即插即用	ji cha ji yong	1
+基础网	ji chu wang	1
+基带快速以太网规范	ji dai kuai su yi tai wang gui fan	1
+激活	ji huo	1
+激活码	ji huo ma	1
+极客	ji ke	1
+机器狗蠕虫	ji qi gou ru chong	1
+即时升级	ji shi sheng ji	1
+即时通讯软件	ji shi tong xun ruan jian	1
+计世网	ji shi wang	1
+计数器	ji shu qi	1
+极速波蠕虫	ji su bo ru chong	1
+极速浏览器	ji su liu lan qi	1
+计算机安全	ji suan ji an quan	1
+计算机安全与保密	ji suan ji an quan yu bao mi	1
+计算机病毒	ji suan ji bing du	1
+计算机病毒对抗	ji suan ji bing du dui kang	1
+计算机病毒应急处理中心	ji suan ji bing du ying ji chu li zhong xin	1
+计算机操作指导	ji suan ji cao zuo zhi dao	1
+计算机软件	ji suan ji ruan jian	1
+计算机网络	ji suan ji wang luo	1
+基网	ji wang	1
+集线器	ji xian qi	1
+集中式网	ji zhong shi wang	1
+基准网络	ji zhun wang luo	1
+加里麦金农	jia li mai jin nong	1
+加密	jia mi	1
+加密算法	jia mi suan fa	1
+加密协议	jia mi xie yi	1
+加速器	jia su qi	1
+嘉游	jia you	1
+监测网络	jian ce wang luo	1
+简单网	jian dan wang	1
+简单网关监视协议	jian dan wang guan jian shi xie yi	1
+剑盟中国社区	jian meng zhong guo she qu	1
+简体中文	jian ti zhong wen	1
+简体中文版	jian ti zhong wen ban	1
+剑网木马	jian wang mu ma	1
+建网站	jian wang zhan	1
+剑侠情缘	jian xia qing yuan	1
+建站	jian zhan	1
+江湖	jiang hu	1
+江民	jiang min	1
+江民反病毒社区	jiang min fan bing du she qu	1
+江民防火墙	jiang min fang huo qiang	1
+江民防火墙下载	jiang min fang huo qiang xia zai	1
+江民科技	jiang min ke ji	1
+江民杀毒软件	jiang min sha du ruan jian	1
+江民杀毒软件手机版	jiang min sha du ruan jian shou ji ban	1
+江民杀毒软件下载	jiang min sha du ruan jian xia zai	1
+江民在线杀毒	jiang min zai xian sha du	1
+交互	jiao hu	1
+交互错误	jiao hu cuo wu	1
+交互方式	jiao hu fang shi	1
+交互故障	jiao hu gu zhang	1
+交互技术	jiao hu ji shu	1
+交互设备	jiao hu she bei	1
+交互式	jiao hu shi	1
+交互式查找	jiao hu shi cha zhao	1
+交互式处理	jiao hu shi chu li	1
+交互式电视	jiao hu shi dian shi	1
+交互式翻译系统	jiao hu shi fan yi xi tong	1
+交互式分时	jiao hu shi fen shi	1
+交互式论证	jiao hu shi lun zheng	1
+交互式批处理	jiao hu shi pi chu li	1
+交互式协议	jiao hu shi xie yi	1
+交互式语言	jiao hu shi yu yan	1
+交互式证明	jiao hu shi zheng ming	1
+交互式证明协议	jiao hu shi zheng ming xie yi	1
+交互图形系统	jiao hu tu xing xi tong	1
+交互型业务	jiao hu xing ye wu	1
+交互运作	jiao hu yun zuo	1
+交互主体	jiao hu zhu ti	1
+交换机	jiao huan ji	1
+交换码	jiao huan ma	1
+交换排列	jiao huan pai lie	1
+交换排序	jiao huan pai xu	1
+交换线路	jiao huan xian lu	1
+交换虚电路	jiao huan xu dian lu	1
+交换虚拟网	jiao huan xu ni wang	1
+教学教程	jiao xue jiao cheng	1
+交钥匙系统	jiao yao shi xi tong	1
+结点	jie dian	1
+节点	jie dian	1
+结点关系度	jie dian guan xi du	1
+解码	jie ma	1
+解码器	jie ma qi	1
+界面	jie mian	1
+接收端	jie shou duan	1
+街头篮球	jie tou lan qiu	1
+接线	jie xian	1
+进程同步	jin cheng tong bu	1
+金狐盗号木马	jin hu dao hao mu ma	1
+今日美食	jin ri mei shi	1
+金山	jin shan	1
+金山词霸	jin shan ci ba	1
+金山打字通	jin shan da zi tong	1
+金山毒霸	jin shan du ba	1
+金山毒霸论坛	jin shan du ba lun tan	1
+金山毒霸杀毒软件	jin shan du ba sha du ruan jian	1
+金山反间谍	jin shan fan jian die	1
+金山画王	jin shan hua wang	1
+金山快译	jin shan kuai yi	1
+金山漏洞修复	jin shan lou dong xiu fu	1
+金山清理专家	jin shan qing li zhuan jia	1
+金山书信通	jin shan shu xin tong	1
+金山网镖	jin shan wang biao	1
+金山影霸	jin shan ying ba	1
+金山英文写作助手	jin shan ying wen xie zuo zhu shou	1
+锦天科技	jin tian ke ji	1
+金羊网	jin yang wang	1
+静态空间	jing tai kong jian	1
+惊天动地	jing tian dong di	1
+劲舞世界	jing wu shi jie	1
+劲舞团	jing wu tuan	1
+劲乐团	jing yue tuan	1
+竞争网络	jing zheng wang luo	1
+九城	jiu cheng	1
+纠错	jiu cuo	1
+纠错码	jiu cuo ma	1
+九天音乐	jiu tian yin yue	1
+久要卡巴	jiu yao ka ba	1
+久游网	jiu you wang	1
+局部过程调用	ju bu guo cheng diao yong	1
+拒绝服务攻击	ju jue fu wu gong ji	1
+聚类	ju lei	1
+巨人	ju ren	1
+巨人终结者木马	ju ren zhong jie zhe mu ma	1
+局域网	ju yu wang	1
+局域网单个地址	ju yu wang dan ge di zhi	1
+局域网广播	ju yu wang guang bo	1
+局域网交换机	ju yu wang jiao huan ji	1
+局域网网关	ju yu wang wang guan	1
+卡巴	ka ba	1
+卡巴斯基	ka ba si ji	1
+卡巴斯基杀毒软件	ka ba si ji sha du ruan jian	1
+卡巴斯基杀毒软件下载	ka ba si ji sha du ruan jian xia zai	1
+卡卡安全助手	ka ka an quan zhu shou	1
+卡卡社区	ka ka she qu	1
+卡秀贺卡	ka xiu he ka	1
+开关网格	kai guan wang ge	1
+开机查杀	kai ji cha sha	1
+可重排网	ke chong pai wang	1
+可路由协议	ke lu you xie yi	1
+可执行程序	ke zhi xing cheng xu	1
+可执行文件	ke zhi xing wen jian	1
+空地址	kong di zhi	1
+控制台	kong zhi tai	1
+酷狗	ku gou	1
+酷狗酷我音乐盒	ku gou ku wo yin yue he	1
+酷我音乐盒	ku wo yin yue he	1
+跨区域脚本病毒	kua qu yu jiao ben bing du	1
+快车	kuai che	1
+快乐影音	kuai le ying yin	1
+快速以太网	kuai su yi tai wang	1
+宽带接入	kuan dai jie ru	1
+宽带局	kuan dai ju	1
+宽带综合业务数字网	kuan dai zong he ye wu shu zi wang	1
+立方体网	li fang ti wang	1
+立即下载	li ji xia zai	1
+历史记录	li shi ji lu	1
+理想在线	li xiang zai xian	1
+联合商情	lian he shang qing	1
+联合早报	lian he zao bao	1
+链接	lian jie	1
+链接点击器	lian jie dian ji qi	1
+链路	lian lu	1
+联络聊天	lian luo liao tian	1
+连通网	lian tong wang	1
+连通域	lian tong yu	1
+连网	lian wang	1
+联想慧盾	lian xiang hui dun	1
+联众世界	lian zhong shi jie	1
+联众世界游戏大厅	lian zhong shi jie you xi da ting	1
+联众游戏	lian zhong you xi	1
+聊天	liao tian	1
+聊天记录	liao tian ji lu	1
+烈焰飞雪	lie yan fei xue	1
+令牌总线	ling pai zong xian	1
+流量统计	liu liang tong ji	1
+流氓软件	liu mang ruan jian	1
+龙卷风网络收音机	long juan feng wang luo shou yin ji	1
+龙骑士	long qi shi	1
+龙腾世界	long teng shi jie	1
+漏洞	lou dong	1
+楼上的	lou shang de	1
+楼下的	lou xia de	1
+楼主	lou zhu	1
+鲁欧蠕虫	lu ou ru chong	1
+路由	lu you	1
+路由器	lu you qi	1
+路由协议	lu you xie yi	1
+路由选择协议	lu you xuan ze xie yi	1
+乱世王权	luan shi wang quan	1
+乱武	luan wu	1
+落伍者	luo wu zhe	1
+绿盟	lv meng	1
+绿伞杀毒软件	lv san sha du ruan jian	1
+绿色软件	lv se ruan jian	1
+麦咖啡	mai ka fei	1
+买咖啡杀毒软件	mai ka fei sha du ruan jian	1
+买咖啡杀毒软件下载	mai ka fei sha du ruan jian xia zai	1
+迈克菲	mai ke fei	1
+迈克菲杀毒软件	mai ke fei sha du ruan jian	1
+盲目搜索	mang mu sou suo	1
+猫猫壁纸酷	mao mao bi zhi ku	1
+冒险岛	mao xian dao	1
+美国微软公司	mei guo wei ruan gong si	1
+梅勒斯木马	mei le si mu ma	1
+媒体访问控制	mei ti fang wen kong zhi	1
+媒体访问控制协议	mei ti fang wen kong zhi xie yi	1
+媒体接口连接器	mei ti jie kou lian jie qi	1
+媒体控制接口	mei ti kong zhi jie kou	1
+媒体控制驱动器	mei ti kong zhi qu dong qi	1
+梦幻古龙	meng huan gu long	1
+梦幻国度	meng huan guo du	1
+梦幻西游	meng huan xi you	1
+梦幻西游木马	meng huan xi you mu ma	1
+蜜蜂大盗木马	mi feng da dao mu ma	1
+密码	mi ma	1
+密码大盗木马	mi ma da dao mu ma	1
+迷你快车	mi ni kuai che	1
+密钥流	mi yao liu	1
+密钥	mi yue	1
+密钥长度	mi yue chang du	1
+密钥短语	mi yue duan yu	1
+密钥对	mi yue dui	1
+密钥分配中心	mi yue fen pei zhong xin	1
+密钥服务器	mi yue fu wu qi	1
+密钥公证	mi yue gong zheng	1
+密钥管理	mi yue guan li	1
+密钥环	mi yue huan	1
+密钥恢复	mi yue hui fu	1
+密钥加密密钥	mi yue jia mi mi yue	1
+密钥建立	mi yue jian li	1
+密钥交换	mi yue jiao huan	1
+密钥搜索攻击	mi yue sou suo gong ji	1
+密钥托管	mi yue tuo guan	1
+密钥证书	mi yue zheng shu	1
+密传	mi zhuan	1
+免费版	mian fei ban	1
+免费电影	mian fei dian ying	1
+免费短信	mian fei duan xin	1
+免费软件	mian fei ruan jian	1
+免费杀毒软件	mian fei sha du ruan jian	1
+免费网	mian fei wang	1
+免费邮箱	mian fei you xiang	1
+面向连接	mian xiang lian jie	1
+明星追踪	ming xing zhui zong	1
+命运	ming yun	1
+魔力宝贝	mo li bao bei	1
+摩力游	mo li you	1
+魔兽世界	mo shou shi jie	1
+魔兽世界木马	mo shou shi jie mu ma	1
+魔域	mo yu	1
+魔域木马	mo yu mu ma	1
+目录服务	mu lu fu wu	1
+目录排序	mu lu pai xu	1
+木马	mu ma	1
+木马彩衣	mu ma cai yi	1
+木马帝国	mu ma di guo	1
+木马防线	mu ma fang xian	1
+木马克星	mu ma ke xing	1
+木马清道夫	mu ma qing dao fu	1
+木马清理王	mu ma qing li wang	1
+木马群	mu ma qun	1
+木马下载器	mu ma xia zai qi	1
+南方网	nan fang wang	1
+内部网关协议	nei bu wang guan xie yi	1
+内存整理	nei cun zheng li	1
+逆地址解析协议	ni di zhi jie xi xie yi	1
+匿名登录	ni ming deng lu	1
+匿名服务器	ni ming fu wu qi	1
+匿名文件传送协议	ni ming wen jian chuan song xie yi	1
+匿名性	ni ming xing	1
+匿名转账	ni ming zhuan zhang	1
+逆网	ni wang	1
+诺顿	nuo dun	1
+诺顿杀毒软件	nuo dun sha du ruan jian	1
+诺顿网络安全特警	nuo dun wang luo an quan te jing	1
+排名	pai ming	1
+排名查询	pai ming cha xun	1
+排序网络	pai xu wang luo	1
+炮炮火枪手	pao pao huo qiang shou	1
+跑跑卡丁车	pao pao ka ding che	1
+泡泡堂	pao pao tang	1
+泡网	pao wang	1
+佩特里网	pei te li wang	1
+朋客	peng ke	1
+批处理	pi chu li	1
+频道	pin dao	1
+拼音输入法	pin yin shu ru fa	1
+屏保查杀	ping bao cha sha	1
+破冰病毒	po bing bing du	1
+破解版	po jie ban	1
+破解码	po jie ma	1
+破解软件	po jie ruan jian	1
+破天一剑终结者木马	po tian yi jian zhong jie zhe mu ma	1
+起点中文	qi dian zhong wen	1
+启发	qi fa	1
+启发杀毒	qi fa sha du	1
+奇虎安全卫士	qi hu an quan wei shi	1
+奇迹	qi ji	1
+奇迹世界	qi ji shi jie	1
+奇摩交友	qi mo jiao you	1
+企业网	qi ye wang	1
+千龙军事	qian long jun shi	1
+千龙新闻	qian long xin wen	1
+千龙伊氏	qian long yi shi	1
+千千静听	qian qian jing ting	1
+嵌入式杀毒	qian ru shi sha du	1
+千兆网卡	qian zhao wang ka	1
+强国社区	qiang guo she qu	1
+强制访问控制	qiang zhi fang wen kong zhi	1
+抢注	qiang zhu	1
+桥接	qiao jie	1
+敲诈者木马	qiao zha zhe mu ma	1
+清理助手	qing li zhu shou	1
+清理专家	qing li zhuan jia	1
+趋势	qu shi	1
+趋势科技	qu shi ke ji	1
+趋势杀毒软件	qu shi sha du ruan jian	1
+区域互联网注册管理机构	qu yu hu lian wang zhu ce guan li ji gou	1
+驱逐舰	qu zhu jian	1
+驱逐舰杀毒软件下载	qu zhu jian sha du ruan jian xia zai	1
+权标环网	quan biao huan wang	1
+权标总线网	quan biao zong xian wang	1
+全连接网	quan lian jie wang	1
+全文检索	quan wen jian suo	1
+缺省共享	que sheng gong xiang	1
+缺省路由	que sheng lu you	1
+热血江湖	re xue jiang hu	1
+热血江湖木马	re xue jiang hu mu ma	1
+人工神经网络	ren gong shen jing wang luo	1
+人民日报	ren min ri bao	1
+人民网	ren min wang	1
+任务管理器	ren wu guan li qi	1
+日历	ri li	1
+榕树下	rong shu xia	1
+蠕虫王蠕虫	ru chong wang ru chong	1
+入侵攻击	ru qin gong ji	1
+入侵系统	ru qin xi tong	1
+软件	ruan jian	1
+软件安全	ruan jian an quan	1
+软件安全性	ruan jian an quan xing	1
+软件版权	ruan jian ban quan	1
+软件包	ruan jian bao	1
+软件产品	ruan jian chan pin	1
+软件下载	ruan jian xia zai	1
+软件学院	ruan jian xue yuan	1
+瑞星	rui xing	1
+瑞星反病毒资讯网	rui xing fan bing du zi xun wang	1
+瑞星防火墙	rui xing fang huo qiang	1
+瑞星个人防火墙	rui xing ge ren fang huo qiang	1
+瑞星个人防火墙下载	rui xing ge ren fang huo qiang xia zai	1
+瑞星卡卡	rui xing ka ka	1
+瑞星卡卡安全助手	rui xing ka ka an quan zhu shou	1
+瑞星卡卡上网安全助手	rui xing ka ka shang wang an quan zhu shou	1
+瑞星杀毒软件	rui xing sha du ruan jian	1
+瑞星杀毒软件手机版	rui xing sha du ruan jian shou ji ban	1
+瑞星杀毒软件下载	rui xing sha du ruan jian xia zai	1
+瑞星在线杀毒	rui xing zai xian sha du	1
+萨博瑞斯蠕虫	sa bo rui si ru chong	1
+赛门铁克	sai men tie ke	1
+赛门铁克杀毒软件	sai men tie ke sha du ruan jian	1
+赛威后门	sai wei hou men	1
+三层交换机	san ceng jiao huan ji	1
+三国	san guo	1
+三国群英传	san guo qun ying zhuan	1
+三级网络	san ji wang luo	1
+三足式网络	san zu shi wang luo	1
+杀毒	sha du	1
+杀毒软件	sha du ruan jian	1
+杀毒软件下载	sha du ruan jian xia zai	1
+杀毒引擎	sha du yin qing	1
+杀软	sha ruan	1
+闪客	shan ke	1
+闪客帝国	shan ke di guo	1
+闪游地带	shan you di dai	1
+上的网际协议	shang de wang ji xie yi	1
+商都宽频网	shang du kuan pin wang	1
+商都桌面	shang du zhuo mian	1
+上海热线	shang hai re xian	1
+上网安全助手	shang wang an quan zhu shou	1
+上网导航	shang wang dao hang	1
+摄像头	she xiang tou	1
+神经元网络	shen jing yuan wang luo	1
+盛大	sheng da	1
+盛大网络	sheng da wang luo	1
+世纪前线	shi ji qian xian	1
+世纪天成	shi ji tian cheng	1
+世纪下载	shi ji xia zai	1
+世嘉	shi jia	1
+世界之窗	shi jie zhi chuang	1
+世界之窗浏览器	shi jie zhi chuang liu lan qi	1
+十六进制论坛	shi liu jin zhi lun tan	1
+十面埋伏	shi mian mai fu	1
+视频广告	shi pin guang gao	1
+视频教程	shi pin jiao cheng	1
+十兆百兆自适应网卡	shi zhao bai zhao zi shi ying wang ka	1
+十兆网卡	shi zhao wang ka	1
+手动查杀	shou dong cha sha	1
+收发邮件	shou fa you jian	1
+手机商务	shou ji shang wu	1
+数据包	shu ju bao	1
+数据采集	shu ju cai ji	1
+数据采集系统	shu ju cai ji xi tong	1
+数据采掘	shu ju cai jue	1
+数据操纵网	shu ju cao zong wang	1
+数据共享	shu ju gong xiang	1
+数据链路控制	shu ju lian lu kong zhi	1
+数据通信	shu ju tong xin	1
+数据通信中	shu ju tong xin zhong	1
+数据网	shu ju wang	1
+树网	shu wang	1
+树状网	shu zhuang wang	1
+数字数据网	shu zi shu ju wang	1
+双边网络	shuang bian wang luo	1
+双绞电缆	shuang jiao dian lan	1
+双缆宽带局域网	shuang lan kuan dai ju yu wang	1
+思科网络	si ke wang luo	1
+搜狗	sou gou	1
+搜狗拼音	sou gou pin yin	1
+搜狗拼音输入法	sou gou pin yin shu ru fa	1
+搜狗手机输入法	sou gou shou ji shu ru fa	1
+搜狗五笔	sou gou wu bi	1
+搜狗音乐盒	sou gou yin yue he	1
+搜刮网蛙	sou gua wang wa	1
+搜狐	sou hu	1
+搜狐电影	sou hu dian ying	1
+搜狐贺卡	sou hu he ka	1
+搜狐社区	sou hu she qu	1
+搜狐体育	sou hu ti yu	1
+搜狐幽默	sou hu you mo	1
+搜索引擎	sou suo yin qing	1
+搜一搜吧	sou yi sou ba	1
+速当下载	su dang xia zai	1
+随机高级佩特里网	sui ji gao ji pei te li wang	1
+随机佩特里网	sui ji pei te li wang	1
+岁月联盟	sui yue lian meng	1
+所有帐户	suo you zhang hu	1
+太平洋	tai ping yang	1
+太平洋杀毒软件下载	tai ping yang sha du ruan jian xia zai	1
+汤普森	tang pu sen	1
+淘宝网	tao bao wang	1
+特洛伊木马	te luo yi mu ma	1
+特勤队	te qin dui	1
+特殊网论	te shu wang lun	1
+特征码	te zheng ma	1
+特种部队	te zhong bu dui	1
+腾讯	teng xun	1
+体育视频	ti yu shi pin	1
+天极网	tian ji wang	1
+天极下载	tian ji xia zai	1
+天极硬件	tian ji ying jian	1
+天极桌面	tian ji zhuo mian	1
+天空软件	tian kong ruan jian	1
+天空软件站	tian kong ruan jian zhan	1
+天空杀毒软件下载	tian kong sha du ruan jian xia zai	1
+天空下载	tian kong xia zai	1
+天联世纪	tian lian shi ji	1
+天龙八部	tian long ba bu	1
+天龙八部木马	tian long ba bu mu ma	1
+天使投资人	tian shi tou zi ren	1
+天堂	tian tang	1
+天天动听	tian tian dong ting	1
+天天饮食	tian tian yin shi	1
+天网	tian wang	1
+天网防火墙	tian wang fang huo qiang	1
+天涯社区	tian ya she qu	1
+挑战	tiao zhan	1
+调制解调器	tiao zhi jie tiao qi	1
+帖子	tie zi	1
+同步	tong bu	1
+同步并行算法	tong bu bing xing suan fa	1
+同步操作	tong bu cao zuo	1
+同步传输	tong bu chuan shu	1
+同步传送模式	tong bu chuan song mo shi	1
+同步路由选择	tong bu lu you xuan ze	1
+同步通信	tong bu tong xin	1
+同步通信量	tong bu tong xin liang	1
+同花顺	tong hua shun	1
+童年	tong nian	1
+通信协议组	tong xin xie yi zu	1
+通信子网	tong xin zi wang	1
+通行证	tong xing zheng	1
+通用类别顶级域	tong yong lei bie ding ji yu	1
+通用网论	tong yong wang lun	1
+同轴电缆	tong zhou dian lan	1
+透明网关	tou ming wang guan	1
+图标集中	tu biao ji zhong	1
+图酷	tu ku	1
+图形图像	tu xing tu xiang	1
+托瓦兹	tuo wa zi	1
+哇嘎	wa ga	1
+外部网关协议	wai bu wang guan xie yi	1
+外部协议	wai bu xie yi	1
+外联网	wai lian wang	1
+外连网	wai lian wang	1
+外延网	wai yan wang	1
+完美世界	wan mei shi jie	1
+完美卸载	wan mei xie zai	1
+万维	wan wei	1
+万维网	wan wei wang	1
+万维网广播	wan wei wang guang bo	1
+万维网站	wan wei wang zhan	1
+万维站点	wan wei zhan dian	1
+万兆网卡	wan zhao wang ka	1
+网变换	wang bian huan	1
+网标识码	wang biao shi ma	1
+网层次	wang ceng ci	1
+网虫	wang chong	1
+网段	wang duan	1
+网盾	wang dun	1
+网关	wang guan	1
+网狐	wang hu	1
+网际	wang ji	1
+网际互连	wang ji hu lian	1
+网际互连协议	wang ji hu lian xie yi	1
+网际控制报文协议	wang ji kong zhi bao wen xie yi	1
+网际快车	wang ji kuai che	1
+网际协议	wang ji xie yi	1
+网际协议地址	wang ji xie yi di zhi	1
+网件	wang jian	1
+网论	wang lun	1
+网络	wang luo	1
+网络安全	wang luo an quan	1
+网络安全工程师	wang luo an quan gong cheng shi	1
+网络参数控制	wang luo can shu kong zhi	1
+网络操作系统	wang luo cao zuo xi tong	1
+网络层	wang luo ceng	1
+网络传送带	wang luo chuan song dai	1
+网络带宽	wang luo dai kuan	1
+网络地址	wang luo di zhi	1
+网络电视	wang luo dian shi	1
+网络电台	wang luo dian tai	1
+网络分割	wang luo fen ge	1
+网络攻击	wang luo gong ji	1
+网络公用设施	wang luo gong yong she shi	1
+网络管理	wang luo guan li	1
+网络互连	wang luo hu lian	1
+网络技术	wang luo ji shu	1
+网络计算机	wang luo ji suan ji	1
+网络结点接口	wang luo jie dian jie kou	1
+网络接口	wang luo jie kou	1
+网络连接	wang luo lian jie	1
+网络乱用	wang luo luan yong	1
+网络蚂蚁	wang luo ma yi	1
+网络平台	wang luo ping tai	1
+网络蠕虫	wang luo ru chong	1
+网络软件	wang luo ruan jian	1
+网络设备	wang luo she bei	1
+网络设施	wang luo she shi	1
+网络时间协议	wang luo shi jian xie yi	1
+网络适配器	wang luo shi pei qi	1
+网络收音机	wang luo shou yin ji	1
+网络体系结构	wang luo ti xi jie gou	1
+网络通信	wang luo tong xin	1
+网络拓补结构	wang luo tuo bu jie gou	1
+网络拓扑	wang luo tuo pu	1
+网络外围设备	wang luo wai wei she bei	1
+网络文件传送	wang luo wen jian chuan song	1
+网络文件系统	wang luo wen jian xi tong	1
+网络系统	wang luo xi tong	1
+网络新贵	wang luo xin gui	1
+网络新闻	wang luo xin wen	1
+网络新闻传送协议	wang luo xin wen chuan song xie yi	1
+网络信息服务	wang luo xin xi fu wu	1
+网络信息中心	wang luo xin xi zhong xin	1
+网络营销	wang luo ying xiao	1
+网络应用	wang luo ying yong	1
+网络拥塞	wang luo yong se	1
+网络游戏窃贼木马	wang luo you xi qie zei mu ma	1
+网络迂回	wang luo yu hui	1
+网络运行中心	wang luo yun xing zhong xin	1
+网络字节顺序	wang luo zi jie shun xu	1
+网络资源	wang luo zi yuan	1
+网马	wang ma	1
+网民	wang min	1
+网桥	wang qiao	1
+网上老手	wang shang lao shou	1
+网上新手	wang shang xin shou	1
+网射	wang she	1
+网同构	wang tong gou	1
+网拓扑	wang tuo pu	1
+网系统	wang xi tong	1
+网页	wang ye	1
+网页吧	wang ye ba	1
+网页病毒下载器病毒	wang ye bing du xia zai qi bing du	1
+网页感染器	wang ye gan ran qi	1
+网页链接	wang ye lian jie	1
+网页木马	wang ye mu ma	1
+网页设计	wang ye she ji	1
+网页优化	wang ye you hua	1
+网页制作	wang ye zhi zuo	1
+网易	wang yi	1
+网易电影	wang yi dian ying	1
+网易贺卡	wang yi he ka	1
+网易社区	wang yi she qu	1
+网易体育	wang yi ti yu	1
+网易笑话	wang yi xiao hua	1
+网易游戏	wang yi you xi	1
+网银大盗	wang yin da dao	1
+网银大盗后门	wang yin da dao hou men	1
+网游木马	wang you mu ma	1
+网域	wang yu	1
+网语言	wang yu yan	1
+网元	wang yuan	1
+网元网	wang yuan wang	1
+网运算	wang yun suan	1
+网站	wang zhan	1
+网站计数器	wang zhan ji shu qi	1
+网展开	wang zhan kai	1
+网站名	wang zhan ming	1
+网站排名	wang zhan pai ming	1
+网站文字	wang zhan wen zi	1
+网折叠	wang zhe die	1
+网知计算	wang zhi ji suan	1
+网状数据库	wang zhuang shu ju ku	1
+网状数据模型	wang zhuang shu ju mo xing	1
+网状网	wang zhuang wang	1
+微点	wei dian	1
+微点主动防御	wei dian zhu dong fang yu	1
+微点主动防御软件	wei dian zhu dong fang yu ruan jian	1
+位段	wei duan	1
+威尔佐夫蠕虫	wei er zuo fu ru chong	1
+微机	wei ji	1
+威金蠕虫	wei jin ru chong	1
+维客	wei ke	1
+威客网	wei ke wang	1
+微软的	wei ruan de	1
+微软中国	wei ruan zhong guo	1
+威特网	wei te wang	1
+维特网	wei te wang	1
+威胁性	wei xie xing	1
+位域	wei yu	1
+位置子网	wei zhi zi wang	1
+文本	wen ben	1
+文本编辑	wen ben bian ji	1
+文本编辑程序	wen ben bian ji cheng xu	1
+文本采掘	wen ben cai jue	1
+文本检索	wen ben jian suo	1
+文本校对	wen ben jiao dui	1
+文本库	wen ben ku	1
+文本数据库	wen ben shu ju ku	1
+文本挖掘	wen ben wa jue	1
+文档	wen dang	1
+文件安全	wen jian an quan	1
+文件保护	wen jian bao hu	1
+文件备份	wen jian bei fen	1
+文件传送	wen jian chuan song	1
+文件传送存取方法	wen jian chuan song cun qu fang fa	1
+文件传送协议	wen jian chuan song xie yi	1
+文件创建	wen jian chuang jian	1
+文件存储器	wen jian cun chu qi	1
+文件存取	wen jian cun qu	1
+文件大小	wen jian da xiao	1
+文件定义	wen jian ding yi	1
+文件服务器	wen jian fu wu qi	1
+文件共享	wen jian gong xiang	1
+文件系统	wen jian xi tong	1
+蜗牛舞街区	wo niu wu jie qu	1
+舞街区	wu jie qu	1
+无类地址	wu lei di zhi	1
+物理布线	wu li bu xian	1
+物理地址	wu li di zhi	1
+物理隔绝网络	wu li ge jue wang luo	1
+无连接模式	wu lian jie mo shi	1
+武林外传	wu lin wai zhuan	1
+无线发送	wu xian fa song	1
+无限网	wu xian wang	1
+无向网	wu xiang wang	1
+武装窃贼木马	wu zhuang qie zei mu ma	1
+西部网安	xi bu wang an	1
+喜聊语音	xi liao yu yin	1
+西陆聊天	xi lu liao tian	1
+西陆社区	xi lu she qu	1
+系统保护	xi tong bao hu	1
+系统补丁	xi tong bu ding	1
+系统防御	xi tong fang yu	1
+系统工具	xi tong gong ju	1
+系统入侵	xi tong ru qin	1
+希望	xi wang	1
+细线以太网	xi xian yi tai wang	1
+下载版	xia zai ban	1
+下载器	xia zai qi	1
+下载软件	xia zai ruan jian	1
+线路编码	xian lu bian ma	1
+线上游戏窃取者木马	xian shang you xi qie qu zhe mu ma	1
+小吧主	xiao ba zhu	1
+小红伞	xiao hong san	1
+小红伞杀毒软件	xiao hong san sha du ruan jian	1
+笑话广场	xiao hua guang chang	1
+小木马	xiao mu ma	1
+笑闹天宫	xiao nao tian gong	1
+小蠕虫	xiao ru chong	1
+小游戏	xiao you xi	1
+小雨伞杀毒软件	xiao yu san sha du ruan jian	1
+小雨伞杀毒软件下载	xiao yu san sha du ruan jian xia zai	1
+邪八	xie ba	1
+邪恶八进制	xie e ba jin zhi	1
+新动力防病毒软件	xin dong li fang bing du ruan jian	1
+新华网	xin hua wang	1
+新浪	xin lang	1
+新浪电影	xin lang dian ying	1
+新浪贺卡	xin lang he ka	1
+新浪竞技	xin lang jing ji	1
+新浪军事	xin lang jun shi	1
+新浪聊天	xin lang liao tian	1
+新浪论坛	xin lang lun tan	1
+新浪新闻	xin lang xin wen	1
+新浪伊人	xin lang yi ren	1
+新浪饮食	xin lang yin shi	1
+新浪游戏	xin lang you xi	1
+新世纪网安	xin shi ji wang an	1
+新石器	xin shi qi	1
+新蜀山剑侠	xin shu shan jian xia	1
+新天翼之链	xin tian yi zhi lian	1
+信息服务器	xin xi fu wu qi	1
+信息社会世界峰会	xin xi she hui shi jie feng hui	1
+新用户免费	xin yong hu mian fei	1
+性感鸡病毒	xing gan ji bing du	1
+星环网	xing huan wang	1
+星型总线	xing xing zong xian	1
+星状网	xing zhuang wang	1
+雄霸天下	xiong ba tian xia	1
+熊猫烧香	xiong mao shao xiang	1
+熊猫烧香蠕虫	xiong mao shao xiang ru chong	1
+熊猫卫士	xiong mao wei shi	1
+熊猫卫士杀毒软件	xiong mao wei shi sha du ruan jian	1
+嗅探器	xiu tan qi	1
+虚链接	xu lian jie	1
+虚拟安全网络	xu ni an quan wang luo	1
+虚拟存储	xu ni cun chu	1
+虚拟地址	xu ni di zhi	1
+虚拟广域网	xu ni guang yu wang	1
+虚拟局域网	xu ni ju yu wang	1
+虚拟空间	xu ni kong jian	1
+虚拟内存	xu ni nei cun	1
+虚拟现实	xu ni xian shi	1
+虚拟寻址	xu ni xun zhi	1
+虚拟寻址机制	xu ni xun zhi ji zhi	1
+虚拟主机	xu ni zhu ji	1
+虚拟专用网	xu ni zhuan yong wang	1
+虚拟专用网络	xu ni zhuan yong wang luo	1
+选择网络	xuan ze wang luo	1
+循环网	xun huan wang	1
+迅雷	xun lei	1
+迅雷舞街区	xun lei wu jie qu	1
+寻仙	xun xian	1
+雅虎	ya hu	1
+雅虎传情	ya hu chuan qing	1
+雅虎天盾	ya hu tian dun	1
+亚太顶级域联合组织	ya tai ding ji yu lian he zu zhi	1
+亚太互联网团体	ya tai hu lian wang tuan ti	1
+亚太互联网研究联盟	ya tai hu lian wang yan jiu lian meng	1
+亚太区域互联网操作技术大会	ya tai qu yu hu lian wang cao zuo ji shu da hui	1
+亚太网络信息中心	ya tai wang luo xin xi zhong xin	1
+炎黄传说	yan huang chuan shuo	1
+央视体育	yang shi ti yu	1
+央视新闻	yang shi xin wen	1
+页面存取时间	ye mian cun qu shi jian	1
+页面居中	ye mian ju zhong	1
+页面描述语言	ye mian miao shu yu yan	1
+页面替换策略	ye mian ti huan ce lue	1
+异步	yi bu	1
+异步操作	yi bu cao zuo	1
+异步传输	yi bu chuan shu	1
+异步传送	yi bu chuan song	1
+异步传送模式	yi bu chuan song mo shi	1
+异步路由选择	yi bu lu you xuan ze	1
+异步通信	yi bu tong xin	1
+移动飞信	yi dong fei xin	1
+亦凡图书	yi fan tu shu	1
+逸览天下	yi lan tian xia	1
+一起玩	yi qi wan	1
+易趣拍卖	yi qu pai mai	1
+易趣网	yi qu wang	1
+一搜	yi sou	1
+以太网	yi tai wang	1
+以太网交换机	yi tai wang jiao huan ji	1
+倚天	yi tian	1
+倚天硬件	yi tian ying jian	1
+移位网	yi wei wang	1
+引导网关协议	yin dao wang guan xie yi	1
+引导协议	yin dao xie yi	1
+银河安全卫士	yin he an quan wei shi	1
+引擎	yin qing	1
+银沙贺卡	yin sha he ka	1
+银沙心意	yin sha xin yi	1
+饮食指南	yin shi zhi nan	1
+因特网	yin te wang	1
+因特网编号管理局	yin te wang bian hao guan li ju	1
+因特网电话	yin te wang dian hua	1
+因特网服务清单	yin te wang fu wu qing dan	1
+因特网服务提供者	yin te wang fu wu ti gong zhe	1
+因特网工程	yin te wang gong cheng	1
+因特网工程备忘录	yin te wang gong cheng bei wang lu	1
+因特网工程指导组	yin te wang gong cheng zhi dao zu	1
+因特网接力闲谈	yin te wang jie li xian tan	1
+因特网接入提供者	yin te wang jie ru ti gong zhe	1
+因特网控制消息协议	yin te wang kong zhi xiao xi xie yi	1
+因特网内容提供者	yin te wang nei rong ti gong zhe	1
+因特网平台提供者	yin te wang ping tai ti gong zhe	1
+因特网商务提供者	yin te wang shang wu ti gong zhe	1
+因特网商业中心	yin te wang shang ye zhong xin	1
+因特网协会	yin te wang xie hui	1
+因特网信息服务器	yin te wang xin xi fu wu qi	1
+因特网研究	yin te wang yan jiu	1
+因特网研究指导组	yin te wang yan jiu zhi dao zu	1
+因特网主体	yin te wang zhu ti	1
+音乐极限	yin yue ji xian	1
+萤火虫木马	ying huo chong mu ma	1
+硬件地址	ying jian di zhi	1
+营销推广软件	ying xiao tui guang ruan jian	1
+应用层	ying yong ceng	1
+赢政天下	ying zheng tian xia	1
+影子鹰	ying zi ying	1
+永恒之塔	yong heng zhi ta	1
+用户	yong hu	1
+用户产权网络	yong hu chan quan wang luo	1
+用户名	yong hu ming	1
+用户日志	yong hu ri zhi	1
+有到桌面词典	you dao zhuo mian ci dian	1
+有道桌面词典	you dao zhuo mian ci dian	1
+有翻译还有百科	you fan yi hai you bai ke	1
+遊戲新幹線	you hu xin gan xian	1
+优化大师	you hua da shi	1
+邮件	you jian	1
+邮件发送清单	you jian fa song qing dan	1
+邮件分发器	you jian fen fa qi	1
+邮件管理员	you jian guan li yuan	1
+有界网	you jie wang	1
+有类地址	you lei di zhi	1
+游戏盗号王木马	you xi dao hao wang mu ma	1
+游戏天下	you xi tian xia	1
+游戏新干线	you xi xin gan xian	1
+游戏娱乐	you xi yu le	1
+有限网	you xian wang	1
+悠游网	you you wang	1
+域分解	yu fen jie	1
+域际策略路由选择	yu ji ce lue lu you xuan ze	1
+娱乐快讯	yu le kuai xun	1
+娱乐先锋	yu le xian feng	1
+域名	yu ming	1
+域名服务	yu ming fu wu	1
+域名服务器	yu ming fu wu qi	1
+域名解析	yu ming jie xi	1
+域名控制器	yu ming kong zhi qi	1
+域名系统	yu ming xi tong	1
+娱闻杂报	yu wen za bao	1
+语音教程	yu yin jiao cheng	1
+语音通信	yu yin tong xin	1
+远程办公	yuan cheng ban gong	1
+远程查询	yuan cheng cha xun	1
+远程登录协议	yuan cheng deng lu xie yi	1
+远程方法调用	yuan cheng fang fa diao yong	1
+远程访问	yuan cheng fang wen	1
+远程访问服务器	yuan cheng fang wen fu wu qi	1
+远程服务	yuan cheng fu wu	1
+远程购物	yuan cheng gou wu	1
+远程过程调用	yuan cheng guo cheng diao yong	1
+远程会议	yuan cheng hui yi	1
+远程加电	yuan cheng jia dian	1
+远程教室	yuan cheng jiao shi	1
+远程教学	yuan cheng jiao xue	1
+远程教育	yuan cheng jiao yu	1
+远程进程调用	yuan cheng jin cheng diao yong	1
+远程控制	yuan cheng kong zhi	1
+远程控制软件	yuan cheng kong zhi ruan jian	1
+远程数据库访问	yuan cheng shu ju ku fang wen	1
+远程信息处理信息	yuan cheng xin xi chu li xin xi	1
+远程诊断	yuan cheng zhen duan	1
+远程支持设施	yuan cheng zhi chi she shi	1
+远程终端	yuan cheng zhong duan	1
+远程咨询	yuan cheng zi xun	1
+远程作业	yuan cheng zuo ye	1
+远程作业处理程序	yuan cheng zuo ye chu li cheng xu	1
+远程作业输出	yuan cheng zuo ye shu chu	1
+远程作业输入	yuan cheng zuo ye shu ru	1
+源代码	yuan dai ma	1
+缘份天空	yuan fen tian kong	1
+远控王	yuan kong wang	1
+园区网	yuan qu wang	1
+云安全	yun an quan	1
+云网数字	yun wang shu zi	1
+运行和维护	yun xing he wei hu	1
+在线	zai xian	1
+在线电影	zai xian dian ying	1
+在线沟通	zai xian gou tong	1
+在线广告	zai xian guang gao	1
+在线教学	zai xian jiao xue	1
+在线杀毒	zai xian sha du	1
+占用量	zhan yong liang	1
+账号	zhang hao	1
+帐户	zhang hu	1
+照片骗子蠕虫	zhao pian pian zi ru chong	1
+侦测	zhen ce	1
+帧中继网	zhen zhong ji wang	1
+证券大盗木马	zheng quan da dao mu ma	1
+征途	zheng tu	1
+征途木马	zheng tu mu ma	1
+正向局域网信道	zheng xiang ju yu wang xin dao	1
+支持	zhi chi	1
+纸客帝国	zhi ke di guo	1
+指向	zhi xiang	1
+终端	zhong duan	1
+终端访问控制器	zhong duan fang wen kong zhi qi	1
+终端仿真软件	zhong duan fang zhen ruan jian	1
+终端接入控制器	zhong duan jie ru kong zhi qi	1
+终端控制系统	zhong duan kong zhi xi tong	1
+终端设备	zhong duan she bei	1
+终端用户	zhong duan yong hu	1
+终端作业	zhong duan zuo ye	1
+中关村	zhong guan cun	1
+中广	zhong guang	1
+中华吸血鬼病毒	zhong hua xi xue gui bing du	1
+中继器	zhong ji qi	1
+中继站	zhong ji zhan	1
+终结者木马	zhong jie zhe mu ma	1
+终身免费	zhong shen mian fei	1
+中天杀毒软件下载	zhong tian sha du ruan jian xia zai	1
+中天在线	zhong tian zai xian	1
+中文域名	zhong wen yu ming	1
+中文域名协调联合会	zhong wen yu ming xie tiao lian he hui	1
+中新网	zhong xin wang	1
+中央电视	zhong yang dian shi	1
+注册机	zhu ce ji	1
+主动防御	zhu dong fang yu	1
+主干网	zhu gan wang	1
+主干总线	zhu gan zong xian	1
+主机	zhu ji	1
+主机操作系统	zhu ji cao zuo xi tong	1
+主机传送文件	zhu ji chuan song wen jian	1
+主机密钥	zhu ji mi yue	1
+注入木马下载器	zhu ru mu ma xia zai qi	1
+诛仙	zhu xian	1
+转接网	zhuan jie wang	1
+专杀工具	zhuan sha gong ju	1
+专线	zhuan xian	1
+专线接入	zhuan xian jie ru	1
+专用数据网	zhuan yong shu ju wang	1
+专用线路	zhuan yong xian lu	1
+桌面华网	zhuo mian hua wang	1
+桌面幽灵木马	zhuo mian you ling mu ma	1
+卓越网	zhuo yue wang	1
+卓越之剑	zhuo yue zhi jian	1
+自动运行	zi dong yun xing	1
+自动运行蠕虫	zi dong yun xing ru chong	1
+子网	zi wang	1
+子网层次	zi wang ceng ci	1
+子网度	zi wang du	1
+子网访问协议	zi wang fang wen xie yi	1
+子网门	zi wang men	1
+子网掩码	zi wang yan ma	1
+资源子网	zi yuan zi wang	1
+综合布线	zong he bu xian	1
+总线网	zong xian wang	1
+组策略	zu ce lue	1
+组合版	zu he ban	1
+足球比分	zu qiu bi fen	1
+组网	zu wang	1

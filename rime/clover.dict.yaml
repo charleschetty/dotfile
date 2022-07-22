@@ -1,0 +1,45 @@
+name: clover
+version: "1"
+sort: by_weight
+
+import_tables:
+  - clover.base
+  - clover.phrase
+  - THUOCL_animal
+  - THUOCL_caijing
+  - THUOCL_car
+  - THUOCL_chengyu
+  - THUOCL_diming
+  - THUOCL_food
+  - THUOCL_IT
+  - THUOCL_law
+  - THUOCL_lishimingren
+  - THUOCL_medical
+  - THUOCL_poem
+  - sogou_new_words
+  - luna_pinyin.biaoqing.dict.yaml
+  - luna_pinyin.mine4.dict.yaml
+  - luna_pinyin.sgplus.dict.yaml
+  - luna_pinyin.net.dict.yaml
+  - luna_pinyin.chengyu.dict.yaml
+  - luna_pinyin.sgmain.dict.yaml
+  - luna_pinyin.chat.dict.yaml
+  - luna_pinyin.place.dict.yaml
+  - luna_pinyin.user.dict.yaml
+  - luna_pinyin.shopping.dict.yaml
+  - luna_pinyin.network.dict.yaml
+  - luna_pinyin.sgplus2.dict.yaml
+  - luna_pinyin.food.dict.yaml
+  - luna_pinyin.english.dict.yaml
+  - luna_pinyin.website.dict.yaml
+  - luna_pinyin.poetry.dict.yaml
+  - luna_pinyin.it.dict.yaml
+  - luna_pinyin.poem.dict.yaml
+  - luna_pinyin.extra_hanzi.dict.yaml
+  - luna_pinyin.extended.dict.yaml
+  - luna_pinyin.mine2.dict.yaml
+  - luna_pinyin.net_words.dict.yaml
+  - luna_pinyin.cn_en.dict.yaml
+  - luna_pinyin.mine3.dict.yaml
+  - luna_pinyin.mine1.dict.yaml
+  - luna_pinyin.computer.dict.yaml
