@@ -1,0 +1,107 @@
+# zmodload zsh/zprof
+
+# export HISTSIZE=1000
+#export EDITOR="nvim"
+
+autoload -U compaudit compinit
+autoload -U compinit && compinit
+
+eval "$(zoxide init zsh)"
+[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
+
+# source /usr/share/nvm/init-nvm.sh
+
+export PATH="/home/charles/.local/bin:$PATH"
+export PATH="/home/charles/.npm-global/bin:$PATH"
+export PATH="/home/charles/go/bin/:$PATH"
+# export QT_QPA_PLATFORMTHEME=qt5ct
+export MKLROOT="/opt/intel/oneapi/mkl/latest/"
+alias icc="gcc  -L${MKLROOT}/lib/intel64 -Wl,--no-as-needed -lmkl_intel_ilp64 -lmkl_gnu_thread -lmkl_core -lgomp -lpthread -lm -ldl"
+alias i++="g++  -L${MKLROOT}/lib/intel64 -Wl,--no-as-needed -lmkl_intel_ilp64 -lmkl_gnu_thread -lmkl_core -lgomp -lpthread -lm -ldl"
+#
+source ~/.zsh/fzf-tab/fzf-tab.plugin.zsh
+source ~/.zsh/fzf.zsh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+
+alias n=neofetch
+alias bty='for W in $(wmctrl -l |grep "Typora" |awk '"'"'{print $1}'"'"'); do xprop -id $W -format _NET_WM_WINDOW_OPACITY 32c -set _NET_WM_WINDOW_OPACITY $(printf 0x%x $((0xffffffff * 80 / 100))); done'
+alias aliyun=' aliyundrive-webdav  --refresh-token="" --port=8080  --auth-user=chahsa --auth-password=password'
+alias pw=poweroff
+alias rb=reboot
+alias vs="systemctl status v2raya.service"
+alias sv="systemctl start v2raya.service"
+alias dv="systemctl stop v2raya.service"
+alias ls="lsd"
+alias c="clear"
+alias cn="clear;n"
+alias du="dust" #dua
+alias e="exa --icons"
+alias vi3="vim ~/.config/i3/config"
+alias top="btm"
+alias p="procs"
+alias t="tldr"
+alias hl="helix"
+alias nv="nvim"
+alias ne="neovide"
+alias weather="curl wttr.in"
+alias find="fd --exclude ~/SourceFile --exclude ~/go "
+alias cat="bat"
+alias grep="rg"
+alias mon="xrandr --output HDMI-A-0 --same-as eDP --auto "
+alias diff="delta"
+alias sed="sd"
+alias yt-dlp="yt-dlp -f bestvideo+bestaudio --merge-output-format mp4 "
+alias df="duf"
+alias cd="z"
+alias ping="gping"
+alias g="gitui"
+alias tt="taskwarrior-tui"
+alias ter="zellij"
+alias st="gummy start"
+alias rt="gummy -t 6500 -b 4"
+alias dt="gummy -t 5400 -b 4"
+alias clean-pac="yay -Qqdt | yay -Rs -"
+alias ai="aichat"
+n
+
+
+open-pdf() {
+  IFS=$'\n' currentpath=($(pwd))
+  cd ~/Documents/BOOK/ 
+  IFS=$'\n' files=($(fzf-tmux --query="$1" --multi --select-1 --exit-0 --height 40%))
+  [[ -n "$files" ]] && zathura 2>/dev/null "${files[@]}" & disown
+  cd "${currentpath}"
+}
+
+open-pdf-cd() {
+  IFS=$'\n' files=($(fzf-tmux --query="$1" --multi --select-1 --exit-0 --height 40%))
+  [[ -n "$files" ]] && zathura 2>/dev/null "${files[@]}" & disown
+}
+alias op="open-pdf" 
+alias opc="open-pdf-cd"
+
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+
+ HISTFILE=$HOME/.zsh/cache/zsh_history
+ HISTSIZE=5000
+ SAVEHIST=5000
+## Settings for umask
+setopt appendhistory
+setopt appendhistory
+setopt INC_APPEND_HISTORY  
+setopt SHARE_HISTORY
+
+
+
+source ~/.zsh/powerlevel10k/powerlevel10k.zsh-theme
+[[ ! -f ~/.zsh/p10k.zsh ]] || source ~/.zsh/p10k.zsh
+autoload -U promptinit; promptinit
+#prompt spaceship
+
+
+# eval "$(starship init zsh)"
+#

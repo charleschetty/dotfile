@@ -1,0 +1,357 @@
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not vim.loop.fs_stat(lazypath) then
+  vim.fn.system({
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    "--branch=stable", -- latest stable release
+    lazypath,
+  })
+end
+
+vim.opt.rtp:prepend(lazypath)
+
+-- Example using a list of specs with the default options
+vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappings are correct
+
+require("lazy").setup({
+  ------------------------------ ui ------------------------------
+  {
+    "shaunsingh/nord.nvim",
+    lazy = false,
+    priority = 1000,
+    config = require("user.ui.nordic")
+  },
+
+  {
+    'goolord/alpha-nvim',
+    event = "VimEnter",
+    lazy = true,
+    dependencies = { 'nvim-tree/nvim-web-devicons' },
+    config = require("user.ui.alpha")
+  },
+
+  {
+    'akinsho/bufferline.nvim',
+    version = "*",
+    lazy = false,
+    event = { "BufReadPost", "BufAdd", "BufNewFile" },
+    dependencies = { 'nvim-tree/nvim-web-devicons', "shaunsingh/nord.nvim",
+    },
+    config = require("user.ui.bufferline")
+  },
+
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    lazy = true,
+    main = "ibl",
+    event = { "CursorHold", "CursorHoldI" },
+    config = require("user.ui.indentline")
+  },
+
+  {
+    'nvim-lualine/lualine.nvim',
+    lazy = false,
+    event = { "BufReadPost", "BufAdd", "BufNewFile" },
+    config = require("user.ui.lualine"),
+  },
+
+  ------------------------------ tool ------------------------------
+
+  {
+    "nvim-tree/nvim-tree.lua",
+    version = "*",
+    lazy = true,
+    cmd = {
+      "NvimTreeToggle",
+      "NvimTreeOpen",
+      "NvimTreeFindFile",
+      "NvimTreeFindFileToggle",
+      "NvimTreeRefresh",
+    },
+    dependencies = {
+      "nvim-tree/nvim-web-devicons",
+    },
+    config = require("user.tool.nvim-tree")
+  },
+
+  {
+    'akinsho/toggleterm.nvim',
+    lazy = true,
+    cmd = {
+      "ToggleTerm",
+      "ToggleTermSetName",
+      "ToggleTermToggleAll",
+      "ToggleTermSendVisualLines",
+      "ToggleTermSendCurrentLine",
+      "ToggleTermSendVisualSelection",
+    },
+    config = require("user.tool.term"),
+  },
+  {
+    "folke/trouble.nvim",
+    lazy = true,
+    event = { "CursorHold", "CursorHoldI" },
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    config = function()
+    end
+  },
+  {
+    "folke/which-key.nvim",
+    lazy = true,
+    event = { "CursorHold", "CursorHoldI" },
+    init = function()
+      vim.o.timeout = true
+      vim.o.timeoutlen = 300
+    end,
+    config = require("user.tool.whichkey")
+  },
+
+  {
+    'gelguy/wilder.nvim',
+    lazy = true,
+    event = "CmdlineEnter",
+    build = ':UpdateRemotePlugins',
+    dependencies = { "romgrk/fzy-lua-native" },
+    config = require("user.tool.wilder")
+  },
+
+
+  ------------------------------ telescope ------------------------------
+  {
+    "nvim-telescope/telescope.nvim",
+    lazy = true,
+    cmd = "Telescope",
+    config = require("user.tool.telescope"),
+    dependencies = {
+      { "nvim-tree/nvim-web-devicons" },
+      { "nvim-lua/plenary.nvim" },
+      { "nvim-telescope/telescope-fzf-native.nvim",    build = "make" },
+      { "nvim-telescope/telescope-live-grep-args.nvim" },
+      'nvim-telescope/telescope-media-files.nvim',
+
+    },
+  },
+
+  'nvim-telescope/telescope-ui-select.nvim',
+
+  ------------------------------ dap ------------------------------
+  --todo
+
+
+  ------------------------------ lang ------------------------------
+  {
+    'simrat39/rust-tools.nvim',
+    lazy = true,
+    ft = "rust",
+    config = require("user.lang.rt"),
+    dependencies = { "nvim-lua/plenary.nvim" },
+  },
+
+
+  ------------------------------ editor ------------------------------
+  {
+    "LunarVim/bigfile.nvim",
+    lazy = false
+  },
+
+  {
+    "ojroques/nvim-bufdel",
+    lazy = true,
+    cmd = { "BufDel", "BufDelAll", "BufDelOthers" },
+  },
+
+  {
+    'numToStr/Comment.nvim',
+    lazy = true,
+    event = { "CursorHold", "CursorHoldI" },
+    config = require("user.editor.comment")
+  },
+
+  {
+    "RRethy/vim-illuminate",
+    lazy = true,
+    event = { "CursorHold", "CursorHoldI" },
+    config = require("user.editor.illuminate"),
+  },
+
+
+  ------------------------------ treesitter ------------------------------
+  {
+    'nvim-treesitter/nvim-treesitter',
+    build = function()
+      if #vim.api.nvim_list_uis() ~= 0 then
+        vim.api.nvim_command("TSUpdate")
+      end
+    end,
+    lazy = true,
+    event = "BufReadPost",
+    config = require("user.editor.treesitter"),
+    dependencies = {
+      'JoosepAlviste/nvim-ts-context-commentstring',
+      { "nvim-treesitter/nvim-treesitter-textobjects" },
+      {
+        "andymass/vim-matchup",
+        init = function()
+          vim.g.matchup_matchparen_offscreen = { method = "popup" }
+        end
+      },
+      {
+        "NvChad/nvim-colorizer.lua",
+        config = require("user.editor.colorsizer"),
+      },
+      {
+        "abecodes/tabout.nvim",
+        config = require("user.editor.tabout"),
+      },
+      --[[ { ]]
+      --[[   "hiphish/rainbow-delimiters.nvim", ]]
+      --[[   config = require("user.editor.rainbow_delims"), ]]
+      --[[ }, ]]
+    },
+  },
+  ------------------------------ cmp ------------------------------
+
+  {
+    'windwp/nvim-autopairs',
+    event = "InsertEnter",
+    --[[ opts = {} -- this is equalent to setup({}) function ]]
+    config = require("user.cmp.autopairs")
+  },
+
+  {
+    "neovim/nvim-lspconfig",
+    lazy = false,
+    --[[ event = { "CursorHold", "CursorHoldI" }, ]]
+    config = require("user.cmp.lsp"),
+    dependencies = {
+      {
+        "ray-x/lsp_signature.nvim",
+        config = require("user.cmp.lsp-sign"),
+      },
+    },
+  },
+
+  {
+    'nvimdev/lspsaga.nvim',
+    lazy = false,
+    event = "LspAttach",
+    config = require("user.cmp.lspsaga"),
+    --[[ require('lspsaga').setup({}) ]]
+    dependenices = {
+      'nvim-treesitter/nvim-treesitter',
+      'nvim-tree/nvim-web-devicons' }
+  },
+
+  {
+    'simrat39/symbols-outline.nvim',
+    lazy = true,
+    event = "LspAttach",
+    config = require("user.cmp.symbolsoutline")
+
+  },
+
+
+  {
+    "hrsh7th/nvim-cmp",
+    lazy = true,
+    event = "InsertEnter",
+    config = require("user.cmp.cmp"),
+    dependencies = {
+      {
+        "L3MON4D3/LuaSnip",
+        dependencies = { "rafamadriz/friendly-snippets" },
+        config = require("user.cmp.luasnip"),
+      },
+      { "lukas-reineke/cmp-under-comparator" },
+      { "saadparwaiz1/cmp_luasnip" },
+      { "hrsh7th/cmp-nvim-lsp" },
+      { "hrsh7th/cmp-nvim-lua" },
+      { "hrsh7th/cmp-path" },
+      { "f3fora/cmp-spell" },
+      { "hrsh7th/cmp-buffer" },
+      { "kdheepak/cmp-latex-symbols" },
+      { "ray-x/cmp-treesitter",              commit = "c8e3a74" },
+    },
+  },
+
+  ------------------------------ other ------------------------------
+
+  {
+    'nvim-pack/nvim-spectre',
+    lazypath = false,
+    config = require("user.other.spectre")
+  },
+
+  {
+    'kevinhwang91/nvim-hlslens',
+    lazy = false,
+    config = require("user.other.hlslen")
+  },
+  --[[ 'nacro90/numb.nvim', ]]
+  {
+    "folke/flash.nvim",
+    event = "VeryLazy",
+    opts = {},
+    keys = {
+    },
+  },
+
+  { "godlygeek/tabular", lazy = true, cmd = { "Tabularize" } },
+  {
+    "chrisgrieser/nvim-spider",
+    lazy = true,
+    init = function()
+      vim.keymap.set({ "n", "o", "x" }, "w", "<cmd>lua require('spider').motion('w')<CR>", { desc = "Spider-w" })
+      vim.keymap.set({ "n", "o", "x" }, "e", "<cmd>lua require('spider').motion('e')<CR>", { desc = "Spider-e" })
+      vim.keymap.set({ "n", "o", "x" }, "b", "<cmd>lua require('spider').motion('b')<CR>", { desc = "Spider-b" })
+      vim.keymap.set({ "n", "o", "x" }, "ge", "<cmd>lua require('spider').motion('ge')<CR>", { desc = "Spider-ge" })
+    end,
+  },
+  {
+    "nvim-neorg/neorg",
+    lazy = true,
+    ft = "norg",
+    build = ":Neorg sync-parsers",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    config = function()
+      require("neorg").setup {
+        load = {
+          ["core.defaults"] = {},  -- Loads default behaviour
+          ["core.concealer"] = {}, -- Adds pretty icons to your documents
+          ['core.completion'] = {
+            config = {
+              engine = 'nvim-cmp',
+            }
+          },
+        },
+      }
+    end,
+  },
+  {
+    "nvimdev/guard.nvim",
+    dependencies = {
+        "nvimdev/guard-collection",
+    },
+    lazy = true, 
+    cmd = {
+     'GuardFmt', 
+      'GuardEnable',
+      'GuardDisable'
+    },
+    config = require("user.cmp.guard") 
+  }
+
+  --[[ { ]]
+  --[[   "toppair/peek.nvim", ]]
+  --[[   event = { "VeryLazy" }, ]]
+  --[[   build = "deno task --quiet build:fast", ]]
+  --[[   config = function() ]]
+  --[[     require("peek").setup() ]]
+  --[[     -- refer to `configuration to change defaults` ]]
+  --[[     vim.api.nvim_create_user_command("PeekOpen", require("peek").open, {}) ]]
+  --[[     vim.api.nvim_create_user_command("PeekClose", require("peek").close, {}) ]]
+  --[[   end, ]]
+  --[[ }, ]]
+})

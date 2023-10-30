@@ -1,0 +1,52 @@
+call plug#begin()
+Plug 'https://github.com/enml/nord-vim.git'
+Plug 'https://github.com/itchyny/vim-cursorword.git'
+Plug 'godlygeek/tabular'
+Plug 'preservim/vim-markdown'
+Plug 'rust-lang/rust.vim'
+Plug 'mhinz/vim-startify'
+Plug 'vim-airline/vim-airline'
+Plug 'preservim/nerdtree'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
+Plug 'ryanoasis/vim-devicons'
+Plug 'junegunn/vim-slash'
+call plug#end()
+
+
+colorscheme nord
+
+set number
+set noerrorbells
+set nocompatible
+syntax on
+set showmode
+set showcmd
+set mouse=a
+set t_Co=256
+filetype indent on
+set autoindent
+set tabstop=2
+set shiftwidth=4
+set expandtab
+set softtabstop=2
+set relativenumber
+set cursorline
+set wrap
+set linebreak
+set wrapmargin=2
+set scrolloff=5
+set laststatus=2
+set ruler
+set showmatch
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set autoread
+set listchars=tab:»·,trail:·
+set list
+set wildmenu
+set wildmode=longest:list,full
+let mapleader = " "   
+map <leader>n :NERDTreeToggle<CR>

@@ -1,0 +1,19 @@
+[submodule "p10k"]
+  path = zsh/powerlevel10k
+  url = https://github.com/romkatv/powerlevel10k
+[submodule "fzf-tab"]
+  path = zsh/fzf-tab 
+  url = https://github.com/Aloxaf/fzf-tab
+[submodule "fastsh"]
+  path = zsh/fast-syntax-highlighting
+  url = https://github.com/zdharma-continuum/fast-syntax-highlighting
+[submodule "ranger-devicons"]
+  path = config/ranger/plugins/ranger_devicons 
+  url = https://github.com/alexanderjeurissen/ranger_devicons
+[submodule "ranger-archives"]
+  path = config/ranger/plugins/ranger-archives
+  url = https://github.com/maximtrp/ranger-archives
+[submodule "zshas"]
+  path = zsh/zsh-autosuggestions
+  url = https://github.com/zsh-users/zsh-autosuggestions
+

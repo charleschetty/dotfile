@@ -1,0 +1,3 @@
+Xcursor.theme:Nordic-cursors
+export XMODIFIERS=@im=fcitx
+QT_QPA_PLATFORMTHEME = qt5ct

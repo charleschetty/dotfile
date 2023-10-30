@@ -1,0 +1,107 @@
+/**
+ * Nordic rofi theme
+ * Adapted by undiabler <undiabler@gmail.com>
+ *
+ * Nord Color palette imported from https://www.nordtheme.com/
+ *
+ */
+
+configuration {
+  font: "JetBrainsMono Nerd Font Medium 10";
+
+  drun {
+    display-name: "";
+  }
+
+  run {
+    display-name: "";
+  }
+
+  window {
+    display-name: "";
+  }
+
+  timeout {
+    delay: 10;
+    action: "kb-cancel";
+  }
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  spacing: 0;
+
+  /* bg: #2E3440; */
+  /* bg-alt: #3B4252; */
+  /* fg: #81A1C1; */
+  /* fg-alt: #EBCB8B; */
+    bg:  #303446;
+    bg-alt: #414559;
+    /* border-col: #303446; */
+    /* selected-col: #303446; */
+    blue: #8caaee;
+    fg: #c6d0f5;
+    fg-alt: #e78284;
+    grey: #737994;
+
+  background-color: @bg;
+  text-color: @fg;
+  transparent: rgba(46,52,64,0);
+}
+
+
+window {
+    location: center;
+    anchor:   center;
+    transparency: "screenshot";
+    /* padding: 10px; */
+    border:  0px;
+    /* border-radius: 6px; */
+    width:      700px;
+
+    background-color: @transparent;
+    spacing: 0;
+    children:  [mainbox];
+    orientation: horizontal;
+}
+
+mainbox {
+  children: [inputbar, listview];
+}
+
+inputbar {
+  background-color: @bg-alt;
+  children: [prompt, entry];
+}
+
+entry {
+  background-color: inherit;
+  padding: 12px 3px;
+}
+
+prompt {
+  background-color: inherit;
+  padding: 12px;
+}
+
+listview {
+  lines: 8;
+}
+
+element {
+  children: [element-icon, element-text];
+}
+
+element-icon {
+  padding: 10px 10px;
+}
+
+element-text {
+  padding: 10px 0;
+}
+
+element-text selected {
+  text-color: @fg-alt;
+}

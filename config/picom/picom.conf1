@@ -1,0 +1,26 @@
+#Custom Stuff
+backend = "glx";
+glx-no-stencil = true;
+glx-no-rebind-pixmap = true;
+vsync = true;
+# Opacity
+opacity = 1.0;			# The opacity for menus. (default 1.0)
+#inactive-opacity = 0.8;			# Opacity of inactive windows. (0.1 - 1.0)
+frame-opacity = 1.0;			# Opacity of window titlebars and borders. (0.1 - 1.0)
+#inactive-opacity-override = true;	# Inactive opacity set by 'inactive-opacity' overrides value of _NET_WM_OPACITY.
+# Other
+inactive-dim = 0.0;		# Dim inactive windows. (0.0 - 1.0, defaults to 0).
+mark-wmwin-focused = true;	# Try to detect WM windows and mark them as active.
+mark-ovredir-focused = true;
+
+fading = false;
+#detect-rounded-corners = true;
+#detect-client-opacity = true;
+# Window type settings
+wintypes:
+{
+  tooltip = { fade = true; shadow = true; opacity = 1.0; focus = true; full-shadow = false; };
+  dock = { shadow = false; clip-shadow-above = true; }
+  dnd = { shadow = false; }
+};
+

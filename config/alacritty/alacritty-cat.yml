@@ -1,0 +1,131 @@
+#
+colors:
+    # Default colors
+    primary:
+        background: "#303446" # base
+        foreground: "#C6D0F5" # text
+        # Bright and dim foreground colors
+        dim_foreground: "#C6D0F5" # text
+        bright_foreground: "#C6D0F5" # text
+
+    # Cursor colors
+    cursor:
+        text: "#303446" # base
+        cursor: "#F2D5CF" # rosewater
+    vi_mode_cursor:
+        text: "#303446" # base
+        cursor: "#BABBF1" # lavender
+
+    # Search colors
+    search:
+        matches:
+            foreground: "#303446" # base
+            background: "#A5ADCE" # subtext0
+        focused_match:
+            foreground: "#303446" # base
+            background: "#A6D189" # green
+        footer_bar:
+            foreground: "#303446" # base
+            background: "#A5ADCE" # subtext0
+
+    # Keyboard regex hints
+    hints:
+        start:
+            foreground: "#303446" # base
+            background: "#E5C890" # yellow
+        end:
+            foreground: "#303446" # base
+            background: "#A5ADCE" # subtext0
+
+    # Selection colors
+    selection:
+        text: "#303446" # base
+        background: "#F2D5CF" # rosewater
+
+    # Normal colors
+    normal:
+        black: "#51576D" # surface1
+        red: "#E78284" # red
+        green: "#A6D189" # green
+        yellow: "#E5C890" # yellow
+        blue: "#8CAAEE" # blue
+        magenta: "#F4B8E4" # pink
+        cyan: "#81C8BE" # teal
+        white: "#B5BFE2" # subtext1
+
+    # Bright colors
+    bright:
+        black: "#626880" # surface2
+        red: "#E78284" # red
+        green: "#A6D189" # green
+        yellow: "#E5C890" # yellow
+        blue: "#8CAAEE" # blue
+        magenta: "#F4B8E4" # pink
+        cyan: "#81C8BE" # teal
+        white: "#A5ADCE" # subtext0
+
+    # Dim colors
+    dim:
+        black: "#51576D" # surface1
+        red: "#E78284" # red
+        green: "#A6D189" # green
+        yellow: "#E5C890" # yellow
+        blue: "#8CAAEE" # blue
+        magenta: "#F4B8E4" # pink
+        cyan: "#81C8BE" # teal
+        white: "#B5BFE2" # subtext1
+
+    indexed_colors:
+        - { index: 16, color: "#EF9F76" }
+        - { index: 17, color: "#F2D5CF" }
+
+window:
+  # opacity: 0.8
+  dimensions:
+     columns: 110
+     lines: 25
+
+font:
+  normal:
+    family:  JetBrainsMonoNL Nerd Font 
+    style: Regular
+
+  bold:
+    family:  JetBrainsMonoNL Nerd Font 
+    style: Bold
+
+  italic:
+    family:  JetBrainsMonoNL Nerd Font  
+    style: Italic
+
+  bold_italic:
+    family:  JetBrainsMonoNL Nerd Font 
+    style: Bold Italic
+
+  size: 12
+key_bindings:
+  - { key: N, mods: Control|Shift, action: CreateNewWindow }
+
+
+# font:
+#   normal:
+#     family: JetBrains Mono  
+#     style: Regular
+#
+#   bold:
+#     family: JetBrains Mono
+#     style: Bold
+#
+#   italic:
+#     family: JetBrains Mono 
+#     style: Italic
+#
+#   bold_italic:
+#     family: JetBrains Mono
+#     style: Bold Italic
+#
+#   size: 12
+
+
+env:
+  WINIT_X11_SCALE_FACTOR: "1.0"

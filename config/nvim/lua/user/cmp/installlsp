@@ -1,0 +1,27 @@
+npm i -g vscode-langservers-extracted
+
+yay -S clangd 
+
+yay -S  cmake-language-server
+
+yay -S jdtls 
+
+yay -S jedi-language-server 
+
+yay -S lua-language-server
+
+yay -S marksman
+
+yay -S pyright 
+
+yay -S python-lsp-server 
+
+r :install.packages("languageserver") 
+
+yay -S rust-analyzer
+
+yay -S texlab 
+
+npm i -g grammarly-languageserver 
+
+yay typst-lsp
