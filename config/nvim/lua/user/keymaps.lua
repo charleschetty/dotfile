@@ -85,7 +85,9 @@ keymap("n", "<leader>la", "<cmd>Lspsaga code_action<CR>", opts)
 keymap("n", "<leader>lj", "<cmd>Lspsaga diagnostic_jump_next<CR>", opts)
 keymap("n", "<leader>lk", "<cmd>Lspsaga diagnostic_jump_prev<CR>", opts)
 keymap("n", "<leader>o", "<cmd>Lspsaga outline<CR>", opts)
-keymap("n", "<C-\\>", "<cmd>ToggleTerm<CR>", opts)
+keymap("n" ,  "<C-\\>", "<cmd>Lspsaga term_toggle<CR>", opts)
+keymap("t" ,  "<C-\\>", "<cmd>Lspsaga term_toggle<CR>", opts)
+
 
 vim.api.nvim_set_keymap('i', '<A-l>', "<Plug>(TaboutMulti)", { silent = true })
 vim.api.nvim_set_keymap('i', '<A-h>', "<Plug>(TaboutBackMulti)", { silent = true })
