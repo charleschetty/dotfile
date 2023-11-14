@@ -130,6 +130,49 @@ require("lazy").setup({
 		config = require("user.lang.rt"),
 		dependencies = { "nvim-lua/plenary.nvim" },
 	},
+	{
+		url = "https://git.sr.ht/~p00f/clangd_extensions.nvim",
+		lazy = true,
+		ft = { "cpp", "c", "cuda" },
+	},
+	--[[ { ]]
+	--[[ 	"ranjithshegde/ccls.nvim", ]]
+	--[[ 	lazy = true, ]]
+	--[[ 	ft = {"cpp" , "c" , "cuda"}, ]]
+	--[[ }, ]]
+
+	{
+		"nvim-neorg/neorg",
+		lazy = true,
+		ft = "norg",
+		build = ":Neorg sync-parsers",
+		dependencies = { "nvim-lua/plenary.nvim" },
+		config = function()
+			require("neorg").setup({
+				load = {
+					["core.defaults"] = {}, -- Loads default behaviour
+					["core.concealer"] = {}, -- Adds pretty icons to your documents
+					["core.completion"] = {
+						config = {
+							engine = "nvim-cmp",
+						},
+					},
+				},
+			})
+		end,
+	},
+
+	--[[ { ]]
+	--[[   "toppair/peek.nvim", ]]
+	--[[   event = { "VeryLazy" }, ]]
+	--[[   build = "deno task --quiet build:fast", ]]
+	--[[   config = function() ]]
+	--[[     require("peek").setup() ]]
+	--[[     -- refer to `configuration to change defaults` ]]
+	--[[     vim.api.nvim_create_user_command("PeekOpen", require("peek").open, {}) ]]
+	--[[     vim.api.nvim_create_user_command("PeekClose", require("peek").close, {}) ]]
+	--[[   end, ]]
+	--[[ }, ]]
 
 	------------------------------ editor ------------------------------
 	{
@@ -218,6 +261,20 @@ require("lazy").setup({
 	},
 
 	{
+		"nvimdev/guard.nvim",
+		dependencies = {
+			"nvimdev/guard-collection",
+		},
+		lazy = true,
+		cmd = {
+			"GuardFmt",
+			"GuardEnable",
+			"GuardDisable",
+		},
+		config = require("user.cmp.guard"),
+	},
+
+	{
 		"hrsh7th/nvim-cmp",
 		lazy = true,
 		event = "InsertEnter",
@@ -270,49 +327,26 @@ require("lazy").setup({
 			)
 		end,
 	},
+
 	{
-		"nvim-neorg/neorg",
-		lazy = true,
-		ft = "norg",
-		build = ":Neorg sync-parsers",
-		dependencies = { "nvim-lua/plenary.nvim" },
+		"luukvbaal/statuscol.nvim",
 		config = function()
-			require("neorg").setup({
-				load = {
-					["core.defaults"] = {}, -- Loads default behaviour
-					["core.concealer"] = {}, -- Adds pretty icons to your documents
-					["core.completion"] = {
-						config = {
-							engine = "nvim-cmp",
-						},
-					},
+			local builtin = require("statuscol.builtin")
+			require("statuscol").setup({
+				relculright = true,
+				segments = {
+					{ text = { "%s" }, click = "v:lua.ScSa" },
+					{ text = { builtin.lnumfunc }, click = "v:lua.ScLa" },
+					{ text = { " ", builtin.foldfunc, " " }, click = "v:lua.ScFa" },
 				},
 			})
 		end,
 	},
-	{
-		"nvimdev/guard.nvim",
-		dependencies = {
-			"nvimdev/guard-collection",
-		},
-		lazy = true,
-		cmd = {
-			"GuardFmt",
-			"GuardEnable",
-			"GuardDisable",
-		},
-		config = require("user.cmp.guard"),
-	},
 
-	--[[ { ]]
-	--[[   "toppair/peek.nvim", ]]
-	--[[   event = { "VeryLazy" }, ]]
-	--[[   build = "deno task --quiet build:fast", ]]
-	--[[   config = function() ]]
-	--[[     require("peek").setup() ]]
-	--[[     -- refer to `configuration to change defaults` ]]
-	--[[     vim.api.nvim_create_user_command("PeekOpen", require("peek").open, {}) ]]
-	--[[     vim.api.nvim_create_user_command("PeekClose", require("peek").close, {}) ]]
-	--[[   end, ]]
-	--[[ }, ]]
+	{
+		"kevinhwang91/nvim-ufo",
+		dependencies = "kevinhwang91/promise-async",
+		event = "VeryLazy",
+		config = require("user.other.ufo"),
+	},
 })

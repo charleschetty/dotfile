@@ -3,7 +3,11 @@ return function()
 
 	require("lspconfig").html.setup({})
 	require("user.cmp.handlersmason").setup()
-	--[[ require 'lspconfig'.clangd.setup {} ]]
+	require("lspconfig").clangd.setup({
+		--[[ require("clangd_extensions.inlay_hints").setup_autocmd(), ]]
+		--[[ require("clangd_extensions.inlay_hints").set_inlay_hints(), ]]
+	})
+	--[[ require("lspconfig").ccls.setup({}) ]]
 	require("lspconfig").cmake.setup({})
 	require("lspconfig").jdtls.setup({})
 	--[[ require 'lspconfig'.jedi_language_server.setup {} ]]
@@ -20,7 +24,6 @@ return function()
 	require("lspconfig").texlab.setup({
 		--[[ cmd = { "/home/charles/SourceFile/bin/texlab" }, ]]
 	})
-	require("lspconfig").ccls.setup({})
 
 	require("lspconfig").grammarly.setup({
 		cmd = { "grammarly-languageserver", "--stdio" },

@@ -35,7 +35,7 @@ local options = {
   -- guifont = "monospace:h17",               -- the font used in graphical neovim applications
   guifont = "JetBrains_Mono:h12", -- the font used in graphical neovim applications
   --[[ foldmethod = "expr", ]]
-  foldenable = false,
+  --[[ foldenable = false, ]]
 }
 
 vim.opt.shortmess:append "c"
