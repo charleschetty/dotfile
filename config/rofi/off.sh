@@ -19,11 +19,11 @@ texts[shutdown]="shutdown"
 
 declare -A icons
 # icons[lockscreen]="\uf023"
-icons[logout]="\uf842"
-icons[suspend]="\uf9b1"
-icons[hibernate]="\uf7c9"
-icons[reboot]="\ufc07"
-icons[shutdown]="\uf011"
+icons[logout]="󰍃"
+icons[suspend]="󰏦"
+icons[hibernate]=""
+icons[reboot]="󰑓"
+icons[shutdown]="⏻"
 icons[cancel]="\u00d7"
 
 declare -A actions

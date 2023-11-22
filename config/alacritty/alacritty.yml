@@ -36,19 +36,19 @@ window:
 
 font:
   normal:
-    family:  JetBrainsMonoNL Nerd Font 
+    family:  JetBrainsMono NL
     style: Regular
 
   bold:
-    family:  JetBrainsMonoNL Nerd Font 
+    family:  JetBrainsMono NL
     style: Bold
 
   italic:
-    family:  JetBrainsMonoNL Nerd Font  
+    family:  JetBrainsMono NL  
     style: Italic
 
   bold_italic:
-    family:  JetBrainsMonoNL Nerd Font 
+    family:  JetBrainsMono NL 
     style: Bold Italic
 
   size: 12
