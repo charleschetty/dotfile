@@ -132,47 +132,47 @@ return function()
 			actionfix = icons.ui.Spell,
 			lines = { "┗", "┣", "┃", "━", "┏" },
 			imp_sign = icons.kind.Implementation,
-			--[[ kind = require("catppuccin.groups.integrations.lsp_saga").custom_kind(), ]]
-			kind = {
-			  -- Kind
-			  Class = { icons.kind.Class, "LspKindClass" },
-			  Constant = { icons.kind.Constant, "LspKindConstant" },
-			  Constructor = { icons.kind.Constructor, "LspKindConstructor" },
-			  Enum = { icons.kind.Enum, "LspKindEnum" },
-			  EnumMember = { icons.kind.EnumMember, "LspKindEnumMember" },
-			  Event = { icons.kind.Event, "LspKindEvent" },
-			  Field = { icons.kind.Field, "LspKindField" },
-			  File = { icons.kind.File, "LspKindFile" },
-			  Function = { icons.kind.Function, "LspKindFunction" },
-			  Interface = { icons.kind.Interface, "LspKindInterface" },
-			  Key = { icons.kind.Keyword, "LspKindKey" },
-			  Method = { icons.kind.Method, "LspKindMethod" },
-			  Module = { icons.kind.Module, "LspKindModule" },
-			  Namespace = { icons.kind.Namespace, "LspKindNamespace" },
-			  Number = { icons.kind.Number, "LspKindNumber" },
-			  Operator = { icons.kind.Operator, "LspKindOperator" },
-			  Package = { icons.kind.Package, "LspKindPackage" },
-			  Property = { icons.kind.Property, "LspKindProperty" },
-			  Struct = { icons.kind.Struct, "LspKindStruct" },
-			  TypeParameter = { icons.kind.TypeParameter, "LspKindTypeParameter" },
-			  Variable = { icons.kind.Variable, "LspKindVariable" },
-			  -- Type
-			  Array = { icons.type.Array, "LspKindArray" },
-			  Boolean = { icons.type.Boolean, "LspKindBoolean" },
-			  Null = { icons.type.Null, "LspKindNull" },
-			  Object = { icons.type.Object, "LspKindObject" },
-			  String = { icons.type.String, "LspKindString" },
-			  -- ccls-specific icons.
-			  TypeAlias = { icons.kind.TypeAlias, "LspKindTypeAlias" },
-			  Parameter = { icons.kind.Parameter, "LspKindParameter" },
-			  StaticMethod = { icons.kind.StaticMethod, "LspKindStaticMethod" },
-			  -- Microsoft-specific icons.
-			  Text = { icons.kind.Text, "LspKindText" },
-			  Snippet = { icons.kind.Snippet, "LspKindSnippet" },
-			  Folder = { icons.kind.Folder, "LspKindFolder" },
-			  Unit = { icons.kind.Unit, "LspKindUnit" },
-			  Value = { icons.kind.Value, "LspKindValue" },
-			},
+			kind = require("catppuccin.groups.integrations.lsp_saga").custom_kind(),
+			--[[ kind = { ]]
+			--[[   -- Kind ]]
+			--[[   Class = { icons.kind.Class, "LspKindClass" }, ]]
+			--[[   Constant = { icons.kind.Constant, "LspKindConstant" }, ]]
+			--[[   Constructor = { icons.kind.Constructor, "LspKindConstructor" }, ]]
+			--[[   Enum = { icons.kind.Enum, "LspKindEnum" }, ]]
+			--[[   EnumMember = { icons.kind.EnumMember, "LspKindEnumMember" }, ]]
+			--[[   Event = { icons.kind.Event, "LspKindEvent" }, ]]
+			--[[   Field = { icons.kind.Field, "LspKindField" }, ]]
+			--[[   File = { icons.kind.File, "LspKindFile" }, ]]
+			--[[   Function = { icons.kind.Function, "LspKindFunction" }, ]]
+			--[[   Interface = { icons.kind.Interface, "LspKindInterface" }, ]]
+			--[[   Key = { icons.kind.Keyword, "LspKindKey" }, ]]
+			--[[   Method = { icons.kind.Method, "LspKindMethod" }, ]]
+			--[[   Module = { icons.kind.Module, "LspKindModule" }, ]]
+			--[[   Namespace = { icons.kind.Namespace, "LspKindNamespace" }, ]]
+			--[[   Number = { icons.kind.Number, "LspKindNumber" }, ]]
+			--[[   Operator = { icons.kind.Operator, "LspKindOperator" }, ]]
+			--[[   Package = { icons.kind.Package, "LspKindPackage" }, ]]
+			--[[   Property = { icons.kind.Property, "LspKindProperty" }, ]]
+			--[[   Struct = { icons.kind.Struct, "LspKindStruct" }, ]]
+			--[[   TypeParameter = { icons.kind.TypeParameter, "LspKindTypeParameter" }, ]]
+			--[[   Variable = { icons.kind.Variable, "LspKindVariable" }, ]]
+			--[[   -- Type ]]
+			--[[   Array = { icons.type.Array, "LspKindArray" }, ]]
+			--[[   Boolean = { icons.type.Boolean, "LspKindBoolean" }, ]]
+			--[[   Null = { icons.type.Null, "LspKindNull" }, ]]
+			--[[   Object = { icons.type.Object, "LspKindObject" }, ]]
+			--[[   String = { icons.type.String, "LspKindString" }, ]]
+			--[[   -- ccls-specific icons. ]]
+			--[[   TypeAlias = { icons.kind.TypeAlias, "LspKindTypeAlias" }, ]]
+			--[[   Parameter = { icons.kind.Parameter, "LspKindParameter" }, ]]
+			--[[   StaticMethod = { icons.kind.StaticMethod, "LspKindStaticMethod" }, ]]
+			--[[   -- Microsoft-specific icons. ]]
+			--[[   Text = { icons.kind.Text, "LspKindText" }, ]]
+			--[[   Snippet = { icons.kind.Snippet, "LspKindSnippet" }, ]]
+			--[[   Folder = { icons.kind.Folder, "LspKindFolder" }, ]]
+			--[[   Unit = { icons.kind.Unit, "LspKindUnit" }, ]]
+			--[[   Value = { icons.kind.Value, "LspKindValue" }, ]]
+			--[[ }, ]]
 		},
 		-- https://dev.neovim.pro/lspsaga/misc/#scrolling-keymaps
 		scroll_preview = {

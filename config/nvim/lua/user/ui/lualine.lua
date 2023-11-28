@@ -49,8 +49,8 @@ return function()
 			icons_enabled = true,
 			--theme = 'auto',
 			--[[ theme = nordic, ]]
-			--[[ theme = "catppuccin", ]]
-    theme = 'onenord',
+			theme = "catppuccin",
+    --[[ theme = 'onenord', ]]
 			component_separators = { left = "", right = "" },
 			section_separators = { left = "", right = "" },
 			disabled_filetypes = {},

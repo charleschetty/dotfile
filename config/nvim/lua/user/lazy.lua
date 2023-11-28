@@ -18,28 +18,28 @@ vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappin
 require("lazy").setup({
 	------------------------------ ui ------------------------------
 	--[[ { ]]
-		--[[ "shaunsingh/nord.nvim", ]]
-		--[[ priority = 1000, ]]
-    --[[ lazy = true, ]]
-		--[[ config = require("user.ui.nordic"), ]]
-	--[[ }, ]]
-	{
-		"rmehri01/onenord.nvim",
-		init = function()
-			vim.cmd.colorscheme("onenord")
-		end,
-		priority = 1000,
-	},
-	--[[ { ]]
-	--[[ 	"catppuccin/nvim", ]]
-	--[[ 	name = "catppuccin", ]]
- --[[    lazy = true, ]]
+	--[[ 	"shaunsingh/nord.nvim", ]]
 	--[[ 	priority = 1000, ]]
-	--[[ 	init = function() ]]
-	--[[ 		vim.cmd.colorscheme("catppuccin-frappe") ]]
-	--[[ 	end, ]]
-	--[[ 	config = require("user.ui.catppuccin"), ]]
+ --[[    lazy = true, ]]
+	--[[ 	config = require("user.ui.nordic"), ]]
 	--[[ }, ]]
+	--[[ { ]]
+	--[[ 	"rmehri01/onenord.nvim", ]]
+	--[[ 	init = function() ]]
+	--[[ 		vim.cmd.colorscheme("onenord") ]]
+	--[[ 	end, ]]
+	--[[ 	priority = 1000, ]]
+	--[[ }, ]]
+	{ 
+		"catppuccin/nvim",
+		name = "catppuccin",
+    --[[ lazy = true, ]]
+		priority = 1000,
+		init = function()
+			vim.cmd.colorscheme("catppuccin-frappe")
+		end,
+		config = require("user.ui.catppuccin"),
+	},
 	--[[ { "EdenEast/nightfox.nvim" }, -- lazy ]]
 	{
 		"goolord/alpha-nvim",
@@ -53,7 +53,7 @@ require("lazy").setup({
 		"akinsho/bufferline.nvim",
 		version = "*",
 		lazy = true,
-		--[[ after = "catppuccin", ]]
+		after = "catppuccin",
 		event = { "BufReadPost", "BufAdd", "BufNewFile" },
 		dependencies = { "nvim-tree/nvim-web-devicons", "shaunsingh/nord.nvim" },
 		config = require("user.ui.bufferline"),

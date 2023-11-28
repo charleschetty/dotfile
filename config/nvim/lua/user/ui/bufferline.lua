@@ -20,7 +20,7 @@ return function()
 	--[[   bold = true, ]]
 	--[[ }) ]]
 	--
-	--[[ local highlights = require("catppuccin.groups.integrations.bufferline").get() ]]
+	local highlights = require("catppuccin.groups.integrations.bufferline").get()
 	local opts = {
 		options = {
 			mode = "buffers", -- set to "tabs" to only show tabpages instead
