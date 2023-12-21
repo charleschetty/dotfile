@@ -5,9 +5,9 @@ You can use <code>config/i3/nord.sh</code>([nord](https://www.nordtheme.com/)) a
 
 ## Shot
 
-![](https://raw.githubusercontent.com/charleschetty/picturebed/main/picture/2023-02-02_20-56.png)
+![](https://raw.githubusercontent.com/charleschetty/dotfile/main/shots/2023-02-02_21-06.png)
 
-![](https://raw.githubusercontent.com/charleschetty/picturebed/main/picture/2023-02-02_21-06.png)
+![](https://raw.githubusercontent.com/charleschetty/dotfile/main/shots/2023-02-02_20-56.png)
 
 
 ## Some tools I use 
