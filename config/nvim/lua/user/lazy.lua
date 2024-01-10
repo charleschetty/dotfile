@@ -20,7 +20,7 @@ require("lazy").setup({
 	--[[ { ]]
 	--[[ 	"shaunsingh/nord.nvim", ]]
 	--[[ 	priority = 1000, ]]
- --[[    lazy = true, ]]
+	--[[    lazy = true, ]]
 	--[[ 	config = require("user.ui.nordic"), ]]
 	--[[ }, ]]
 	--[[ { ]]
@@ -30,10 +30,10 @@ require("lazy").setup({
 	--[[ 	end, ]]
 	--[[ 	priority = 1000, ]]
 	--[[ }, ]]
-	{ 
+	{
 		"catppuccin/nvim",
 		name = "catppuccin",
-    --[[ lazy = true, ]]
+		--[[ lazy = true, ]]
 		priority = 1000,
 		init = function()
 			vim.cmd.colorscheme("catppuccin-frappe")
@@ -53,7 +53,7 @@ require("lazy").setup({
 		"akinsho/bufferline.nvim",
 		version = "*",
 		lazy = true,
-		after = "catppuccin",
+		--[[ after = "catppuccin", ]]
 		event = { "BufReadPost", "BufAdd", "BufNewFile" },
 		dependencies = { "nvim-tree/nvim-web-devicons", "shaunsingh/nord.nvim" },
 		config = require("user.ui.bufferline"),
@@ -127,6 +127,7 @@ require("lazy").setup({
 		cmd = "Telescope",
 		config = require("user.tool.telescope"),
 		dependencies = {
+			{ "rafi/telescope-thesaurus.nvim" },
 			{ "nvim-tree/nvim-web-devicons" },
 			{ "nvim-lua/plenary.nvim" },
 			{ "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
@@ -178,6 +179,12 @@ require("lazy").setup({
 				},
 			})
 		end,
+	},
+
+	{
+		"kaarmu/typst.vim",
+		ft = "typst",
+		lazy = false,
 	},
 
 	--[[ { ]]
@@ -272,7 +279,7 @@ require("lazy").setup({
 		event = "LspAttach",
 		config = require("user.cmp.lspsaga"),
 		--[[ require('lspsaga').setup({}) ]]
-		dependenices = {
+		dependencies = {
 			"nvim-treesitter/nvim-treesitter",
 			"nvim-tree/nvim-web-devicons",
 		},

@@ -44,4 +44,13 @@ return function()
 	require("lspconfig").rust_analyzer.setup({
 		--[[ cmd = { 'rustup run stable rust-analyzer' }, ]]
 	})
+
+	require("lspconfig").ruff_lsp.setup({
+		init_options = {
+			settings = {
+				-- Any extra CLI arguments for `ruff` go here.
+				args = {},
+			},
+		},
+	})
 end
