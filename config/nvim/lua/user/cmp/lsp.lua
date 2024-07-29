@@ -1,9 +1,11 @@
 return function()
 	local util = require("lspconfig/util")
 
+	local capabilities = require("cmp_nvim_lsp").default_capabilities()
 	require("lspconfig").html.setup({})
 	require("user.cmp.handlersmason").setup()
 	require("lspconfig").clangd.setup({
+    --[[ capabilities = capabilities; ]]
 		--[[ require("clangd_extensions.inlay_hints").setup_autocmd(), ]]
 		--[[ require("clangd_extensions.inlay_hints").set_inlay_hints(), ]]
 	})
@@ -53,4 +55,6 @@ return function()
 			},
 		},
 	})
+
+  require'lspconfig'.r_language_server.setup{}
 end

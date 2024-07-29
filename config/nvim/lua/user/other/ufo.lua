@@ -51,7 +51,7 @@ return function()
 	end
 	opts = {
 		open_fold_hl_timeout = 400,
-		close_fold_kinds = { "imports", "comment" },
+		close_fold_kinds_for_ft = { "imports", "comment" },
 		preview = {
 			win_config = {
 				border = { "", "─", "", "", "", "─", "", "" },
@@ -66,16 +66,17 @@ return function()
 			},
 		},
 	}
-	opts["fold_virt_text_handler"] = handler
-	require("ufo").setup(opts)
-	vim.keymap.set("n", "zR", require("ufo").openAllFolds)
-	vim.keymap.set("n", "zM", require("ufo").closeAllFolds)
-	vim.keymap.set("n", "zr", require("ufo").openFoldsExceptKinds)
-	vim.keymap.set("n", "K", function()
-		local winid = require("ufo").peekFoldedLinesUnderCursor()
+	--[[ opts["fold_virt_text_handler"] = handler ]]
+	--[[ require("ufo").setup(opts) ]]
+	require("ufo").setup()
+	--[[ vim.keymap.set("n", "zR", require("ufo").openAllFolds) ]]
+	--[[ vim.keymap.set("n", "zM", require("ufo").closeAllFolds) ]]
+	--[[ vim.keymap.set("n", "zr", require("ufo").openFoldsExceptKinds) ]]
+	--[[ vim.keymap.set("n", "K", function() ]]
+		 -- local winid = require("ufo").peekFoldedLinesUnderCursor()
 		if not winid then
 			-- vim.lsp.buf.hover()
-			vim.cmd([[ Lspsaga hover_doc ]])
+			 -- vim.cmd([[ Lspsaga hover_doc ]])
 		end
-	end)
+	-- end)
 end

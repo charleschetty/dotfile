@@ -10,7 +10,6 @@ keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
-
 -- Normal --
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
@@ -53,42 +52,16 @@ keymap("x", "K", ":move '<-2<CR>gv-gv", opts)
 keymap("x", "<A-j>", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
-
-
-keymap("n", "<leader>f",
-  "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>",
-  opts)
-keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
---[[ keymap("n", "<leader>ca", "<cmd>lua  require('telescope.builtin').lsp_code_actions(:with)<CR>", opts) ]]
-
-
-keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
-
-
-keymap('n', '<leader>rf', ':w<Esc>:RunFile<CR>', opts)
-keymap('n', '<leader>rc', ':RunClose<CR>', opts)
-
-keymap('n', '<leader>t', ':TroubleToggle<cr>', opts)
-vim.api.nvim_create_user_command('RustEnableInlayHints', "lua require('rust-tools').inlay_hints.set()", {})
-vim.api.nvim_create_user_command('RustDisableInlayHints', "lua require('rust-tools').inlay_hints.unset()", {})
-vim.api.nvim_create_user_command('Spectre', "lua require('spectre').open()", {})
-vim.api.nvim_create_user_command('Spectrefile', "lua require('spectre').open_file_search()", {})
-
+vim.api.nvim_create_user_command("RustEnableInlayHints", "lua require('rust-tools').inlay_hints.set()", {})
+vim.api.nvim_create_user_command("RustDisableInlayHints", "lua require('rust-tools').inlay_hints.unset()", {})
 
 keymap("n", "gh", "<cmd>Lspsaga lsp_finder<CR>", opts)
-keymap("n", "<leader>lf", "<cmd>Lspsaga finder def+ref<cr>", opts)
 keymap("n", "K", "<cmd>Lspsaga hover_doc<CR>", opts)
 keymap("n", "gp", "<cmd>Lspsaga peek_definition<CR>", opts)
 keymap("n", "gd", "<cmd>Lspsaga goto_definition<CR>", opts)
-keymap("n", "<leader>lr", "<cmd>Lspsaga rename<CR>", opts)
-keymap("n", "<leader>la", "<cmd>Lspsaga code_action<CR>", opts)
-keymap("n", "<leader>lj", "<cmd>Lspsaga diagnostic_jump_next<CR>", opts)
-keymap("n", "<leader>lk", "<cmd>Lspsaga diagnostic_jump_prev<CR>", opts)
 keymap("n", "<leader>o", "<cmd>Lspsaga outline<CR>", opts)
-keymap("n" ,  "<C-\\>", "<cmd>Lspsaga term_toggle<CR>", opts)
-keymap("t" ,  "<C-\\>", "<cmd>Lspsaga term_toggle<CR>", opts)
+keymap("n", "<C-\\>", "<cmd>Lspsaga term_toggle<CR>", opts)
+keymap("t", "<C-\\>", "<cmd>Lspsaga term_toggle<CR>", opts)
 
-
-vim.api.nvim_set_keymap('i', '<A-l>', "<Plug>(TaboutMulti)", { silent = true })
-vim.api.nvim_set_keymap('i', '<A-h>', "<Plug>(TaboutBackMulti)", { silent = true })
-
+vim.api.nvim_set_keymap("i", "<A-l>", "<Plug>(TaboutMulti)", { silent = true })
+vim.api.nvim_set_keymap("i", "<A-h>", "<Plug>(TaboutBackMulti)", { silent = true })

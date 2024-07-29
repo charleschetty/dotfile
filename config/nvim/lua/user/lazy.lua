@@ -95,21 +95,43 @@ require("lazy").setup({
 
 	{
 		"folke/trouble.nvim",
-		lazy = true,
-		event = { "CursorHold", "CursorHoldI" },
-		dependencies = { "nvim-tree/nvim-web-devicons" },
-		config = function() end,
+		opts = {}, -- for default options, refer to the configuration section for custom setup.
+		cmd = "Trouble",
+		keys = {
+			{
+				"<leader>t",
+				"<cmd>Trouble diagnostics toggle<cr>",
+				desc = "Diagnostics (Trouble)",
+			},
+		},
 	},
-	{
-		"folke/which-key.nvim",
-		lazy = true,
-		event = { "CursorHold", "CursorHoldI" },
-		init = function()
-			vim.o.timeout = true
-			vim.o.timeoutlen = 300
-		end,
-		config = require("user.tool.whichkey"),
-	},
+
+	--[[ { ]]
+	--[[ 	"folke/which-key.nvim", ]]
+	--[[ 	lazy = true, ]]
+	--[[ 	event = { "CursorHold", "CursorHoldI" }, ]]
+	--[[ 	init = function() ]]
+	--[[ 		vim.o.timeout = true ]]
+	--[[ 		vim.o.timeoutlen = 300 ]]
+	--[[ 	end, ]]
+	--[[ 	config = require("user.tool.whichkey"), ]]
+	--[[ }, ]]
+	--[[]]
+{
+  "folke/which-key.nvim",
+  event = "VeryLazy",
+	config = require("user.tool.whichkey"),
+  keys = {
+    {
+      "<leader>?",
+      function()
+        require("which-key").show({ global = false })
+      end,
+      desc = "Buffer Local Keymaps (which-key)",
+    },
+  },
+},
+
 
 	{
 		"gelguy/wilder.nvim",
@@ -149,11 +171,11 @@ require("lazy").setup({
 		config = require("user.lang.rt"),
 		dependencies = { "nvim-lua/plenary.nvim" },
 	},
-	{
-		url = "https://git.sr.ht/~p00f/clangd_extensions.nvim",
-		lazy = true,
-		ft = { "cpp", "c", "cuda" },
-	},
+	--[[ { ]]
+	--[[ 	url = "https://git.sr.ht/~p00f/clangd_extensions.nvim", ]]
+	--[[ 	lazy = true, ]]
+	--[[ 	ft = { "cpp", "c", "cuda" }, ]]
+	--[[ }, ]]
 	--[[ { ]]
 	--[[ 	"ranjithshegde/ccls.nvim", ]]
 	--[[ 	lazy = true, ]]
@@ -262,7 +284,7 @@ require("lazy").setup({
 
 	{
 		"neovim/nvim-lspconfig",
-		lazy = false,
+		lazy = true,
 		event = { "CursorHold", "CursorHoldI" },
 		config = require("user.cmp.lsp"),
 		dependencies = {
@@ -278,7 +300,6 @@ require("lazy").setup({
 		lazy = false,
 		event = "LspAttach",
 		config = require("user.cmp.lspsaga"),
-		--[[ require('lspsaga').setup({}) ]]
 		dependencies = {
 			"nvim-treesitter/nvim-treesitter",
 			"nvim-tree/nvim-web-devicons",
