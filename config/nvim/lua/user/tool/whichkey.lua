@@ -10,7 +10,9 @@ return function()
 		},
 		{ "<c-t>", "<cmd>Telescope live_grep<cr>", mode = "n", desc = "live grep" },
 		{ "<leader>e", ":NvimTreeToggle<cr>", mode = "n", desc = "Explorer" },
-		{ "<leader>/", '<cmd>lua require("Comment.api").toggle.linewise.current()<CR>', mode = "n", desc = "Comment" },
+
+		{ "<leader>/", "<Plug>(comment_toggle_linewise_current)", mode = "n", desc = "Comment" },
+		{ "<leader>/", "<Plug>(comment_toggle_linewise_visual)", mode = "v", desc = "Comment" },
 		{ "<leader>a", " <cmd>Alpha<cr>", mode = "n", desc = "Alpha" },
 		{
 			"<leader>b",

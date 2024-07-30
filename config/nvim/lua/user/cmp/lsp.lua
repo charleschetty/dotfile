@@ -5,9 +5,6 @@ return function()
 	require("lspconfig").html.setup({})
 	require("user.cmp.handlersmason").setup()
 	require("lspconfig").clangd.setup({
-    --[[ capabilities = capabilities; ]]
-		--[[ require("clangd_extensions.inlay_hints").setup_autocmd(), ]]
-		--[[ require("clangd_extensions.inlay_hints").set_inlay_hints(), ]]
 	})
 	--[[ require("lspconfig").ccls.setup({}) ]]
 	require("lspconfig").cmake.setup({})
