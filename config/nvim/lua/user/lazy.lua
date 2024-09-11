@@ -117,21 +117,20 @@ require("lazy").setup({
 	--[[ 	config = require("user.tool.whichkey"), ]]
 	--[[ }, ]]
 	--[[]]
-{
-  "folke/which-key.nvim",
-  event = "VeryLazy",
-	config = require("user.tool.whichkey"),
-  keys = {
-    {
-      "<leader>?",
-      function()
-        require("which-key").show({ global = false })
-      end,
-      desc = "Buffer Local Keymaps (which-key)",
-    },
-  },
-},
-
+	{
+		"folke/which-key.nvim",
+		event = "VeryLazy",
+		config = require("user.tool.whichkey"),
+		keys = {
+			{
+				"<leader>?",
+				function()
+					require("which-key").show({ global = false })
+				end,
+				desc = "Buffer Local Keymaps (which-key)",
+			},
+		},
+	},
 
 	{
 		"gelguy/wilder.nvim",
@@ -171,6 +170,14 @@ require("lazy").setup({
 		config = require("user.lang.rt"),
 		dependencies = { "nvim-lua/plenary.nvim" },
 	},
+	{
+
+		"MeanderingProgrammer/render-markdown.nvim",
+    lazy  = true,
+		ft = "markdown",
+		-- dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.icons' }, -- if you use standalone mini plugins
+		dependencies = { "nvim-treesitter/nvim-treesitter", "nvim-tree/nvim-web-devicons" }, -- if you prefer nvim-web-devicons
+	},
 	--[[ { ]]
 	--[[ 	url = "https://git.sr.ht/~p00f/clangd_extensions.nvim", ]]
 	--[[ 	lazy = true, ]]
@@ -182,31 +189,31 @@ require("lazy").setup({
 	--[[ 	ft = {"cpp" , "c" , "cuda"}, ]]
 	--[[ }, ]]
 
-	{
-		"nvim-neorg/neorg",
-		lazy = true,
-		ft = "norg",
-		build = ":Neorg sync-parsers",
-		dependencies = { "nvim-lua/plenary.nvim" },
-		config = function()
-			require("neorg").setup({
-				load = {
-					["core.defaults"] = {}, -- Loads default behaviour
-					["core.concealer"] = {}, -- Adds pretty icons to your documents
-					["core.completion"] = {
-						config = {
-							engine = "nvim-cmp",
-						},
-					},
-				},
-			})
-		end,
-	},
+	--[[ { ]]
+	--[[ 	"nvim-neorg/neorg", ]]
+	--[[ 	lazy = true, ]]
+	--[[ 	ft = "norg", ]]
+	--[[ 	build = ":Neorg sync-parsers", ]]
+	--[[ 	dependencies = { "nvim-lua/plenary.nvim" }, ]]
+	--[[ 	config = function() ]]
+	--[[ 		require("neorg").setup({ ]]
+	--[[ 			load = { ]]
+	--[[ 				["core.defaults"] = {}, -- Loads default behaviour ]]
+	--[[ 				["core.concealer"] = {}, -- Adds pretty icons to your documents ]]
+	--[[ 				["core.completion"] = { ]]
+	--[[ 					config = { ]]
+	--[[ 						engine = "nvim-cmp", ]]
+	--[[ 					}, ]]
+	--[[ 				}, ]]
+	--[[ 			}, ]]
+	--[[ 		}) ]]
+	--[[ 	end, ]]
+	--[[ }, ]]
 
 	{
 		"kaarmu/typst.vim",
 		ft = "typst",
-		lazy = false,
+		lazy = true,
 	},
 
 	--[[ { ]]

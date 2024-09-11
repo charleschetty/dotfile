@@ -31,4 +31,6 @@ return function()
   ft_gu("lua"):fmt("stylua")
   ft_gu("bash"):fmt("shfmt")
   ft_gu("java"):fmt( "google-java-format")
+
+  ft_gu("go"):fmt("gofmt")
 end

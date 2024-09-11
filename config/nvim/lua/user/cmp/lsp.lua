@@ -24,15 +24,15 @@ return function()
 		--[[ cmd = { "/home/charles/SourceFile/bin/texlab" }, ]]
 	})
 
-	require("lspconfig").grammarly.setup({
-		cmd = { "grammarly-languageserver", "--stdio" },
-		filetypes = { "tex", "markdown", "text" },
-		init_options = {
-			clientId = "client_BaDkMgx4X19X9UxxYRCXZo",
-		},
-		single_file_support = true,
-		root_dir = util.find_git_ancestor,
-	})
+	--[[ require("lspconfig").grammarly.setup({ ]]
+	--[[ 	cmd = { "grammarly-languageserver", "--stdio" }, ]]
+	--[[ 	filetypes = { "tex", "markdown", "text" }, ]]
+	--[[ 	init_options = { ]]
+	--[[ 		clientId = "client_BaDkMgx4X19X9UxxYRCXZo", ]]
+	--[[ 	}, ]]
+	--[[ 	single_file_support = true, ]]
+	--[[ 	root_dir = util.find_git_ancestor, ]]
+	--[[ }) ]]
 
 	require("lspconfig").typst_lsp.setup({
 		--[[ cmd = { "~/SourceFile/bin/typst-lsp" }, ]]
@@ -54,4 +54,5 @@ return function()
 	})
 
   require'lspconfig'.r_language_server.setup{}
+require'lspconfig'.gopls.setup{}
 end
