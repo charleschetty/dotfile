@@ -320,9 +320,7 @@ require("lazy").setup({
 		},
 		lazy = true,
 		cmd = {
-			"GuardFmt",
-			"GuardEnable",
-			"GuardDisable",
+			"Guard"
 		},
 		config = require("user.cmp.guard"),
 	},
