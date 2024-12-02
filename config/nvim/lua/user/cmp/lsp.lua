@@ -4,8 +4,7 @@ return function()
 	local capabilities = require("cmp_nvim_lsp").default_capabilities()
 	require("lspconfig").html.setup({})
 	require("user.cmp.handlersmason").setup()
-	require("lspconfig").clangd.setup({
-	})
+	require("lspconfig").clangd.setup({})
 	--[[ require("lspconfig").ccls.setup({}) ]]
 	require("lspconfig").cmake.setup({})
 	require("lspconfig").jdtls.setup({})
@@ -34,17 +33,12 @@ return function()
 	--[[ 	root_dir = util.find_git_ancestor, ]]
 	--[[ }) ]]
 
-	require("lspconfig").typst_lsp.setup({
-		--[[ cmd = { "~/SourceFile/bin/typst-lsp" }, ]]
-		filetypes = { "typst" },
-		single_file_support = true,
-		root_dir = util.find_git_ancestor,
-	})
+	require("lspconfig").tinymist.setup({})
 	require("lspconfig").rust_analyzer.setup({
 		--[[ cmd = { 'rustup run stable rust-analyzer' }, ]]
 	})
 
-	require("lspconfig").ruff_lsp.setup({
+	require("lspconfig").ruff.setup({
 		init_options = {
 			settings = {
 				-- Any extra CLI arguments for `ruff` go here.
@@ -53,6 +47,6 @@ return function()
 		},
 	})
 
-  require'lspconfig'.r_language_server.setup{}
-require'lspconfig'.gopls.setup{}
+	require("lspconfig").r_language_server.setup({})
+	require("lspconfig").gopls.setup({})
 end
