@@ -173,11 +173,20 @@ require("lazy").setup({
 	{
 
 		"MeanderingProgrammer/render-markdown.nvim",
-    lazy  = true,
+		lazy = true,
 		ft = "markdown",
 		-- dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.icons' }, -- if you use standalone mini plugins
 		dependencies = { "nvim-treesitter/nvim-treesitter", "nvim-tree/nvim-web-devicons" }, -- if you prefer nvim-web-devicons
 	},
+
+	{
+		"3rd/image.nvim",
+		lazy = true,
+		ft = "markdown",
+		config = require("user.lang.image"),
+		opts = {},
+	},
+
 	--[[ { ]]
 	--[[ 	url = "https://git.sr.ht/~p00f/clangd_extensions.nvim", ]]
 	--[[ 	lazy = true, ]]
@@ -320,7 +329,7 @@ require("lazy").setup({
 		},
 		lazy = true,
 		cmd = {
-			"Guard"
+			"Guard",
 		},
 		config = require("user.cmp.guard"),
 	},
