@@ -25,7 +25,6 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 
 alias n=neofetch
-alias bty='for W in $(wmctrl -l |grep "Typora" |awk '"'"'{print $1}'"'"'); do xprop -id $W -format _NET_WM_WINDOW_OPACITY 32c -set _NET_WM_WINDOW_OPACITY $(printf 0x%x $((0xffffffff * 80 / 100))); done'
 alias aliyun=' aliyundrive-webdav  --refresh-token="" --port=8080  --auth-user=chahsa --auth-password=password'
 alias pw=poweroff
 alias rb=reboot
@@ -36,15 +35,11 @@ alias ls="lsd"
 alias c="clear"
 alias cn="clear;n"
 alias du="dust" #dua
-alias e="exa --icons"
 alias vi3="vim ~/.config/i3/config"
 alias top="btm"
 alias p="procs"
 alias t="tldr"
-alias hl="helix"
 alias nv="nvim"
-alias ne="neovide"
-alias weather="curl wttr.in"
 alias find="fd --exclude ~/SourceFile --exclude ~/go "
 alias cat="bat"
 alias grep="rg"
@@ -54,15 +49,13 @@ alias sed="sd"
 alias yt-dlp="yt-dlp -f bestvideo+bestaudio --merge-output-format mp4 "
 alias df="duf"
 alias cd="z"
-alias ping="gping"
 alias g="gitui"
-alias tt="taskwarrior-tui"
 alias ter="zellij"
 alias st="gummy start"
 alias rt="gummy -t 6500 -b 4"
 alias dt="gummy -t 5400 -b 4"
 alias clean-pac="yay -Qqdt | yay -Rs -"
-alias ai="aichat"
+alias sudo="sudo env PATH=$PATH"
 n
 
 
