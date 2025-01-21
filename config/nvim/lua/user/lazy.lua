@@ -361,7 +361,7 @@ require("lazy").setup({
 
 	{
 		"kevinhwang91/nvim-hlslens",
-		lazy = false,
+		lazy = false ,
 		config = require("user.other.hlslen"),
 	},
 	--[[ 'nacro90/numb.nvim', ]]
