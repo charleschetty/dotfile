@@ -284,7 +284,7 @@ require("lazy").setup({
 				end,
 			},
 			{
-				"NvChad/nvim-colorizer.lua",
+				"catgoose/nvim-colorizer.lua",
 				config = require("user.editor.colorsizer"),
 			},
 		},
