@@ -1,7 +1,4 @@
 return function()
-	local util = require("lspconfig/util")
-
-	local capabilities = require("cmp_nvim_lsp").default_capabilities()
 	require("lspconfig").html.setup({})
 	require("user.cmp.handlersmason").setup()
 	require("lspconfig").clangd.setup({})
