@@ -163,12 +163,19 @@ require("lazy").setup({
 	--todo
 
 	------------------------------ lang ------------------------------
+	--[[ { ]]
+	--[[ 	"simrat39/rust-tools.nvim", ]]
+	--[[ 	lazy = true, ]]
+	--[[ 	ft = "rust", ]]
+	--[[ 	config = require("user.lang.rt"), ]]
+	--[[ 	dependencies = { "nvim-lua/plenary.nvim" }, ]]
+	--[[ }, ]]
+	--[[]]
 	{
-		"simrat39/rust-tools.nvim",
-		lazy = true,
-		ft = "rust",
+		"mrcjkb/rustaceanvim",
+		version = "^6", -- Recommended
+		lazy = false, -- This plugin is already lazy
 		config = require("user.lang.rt"),
-		dependencies = { "nvim-lua/plenary.nvim" },
 	},
 	{
 
@@ -284,7 +291,7 @@ require("lazy").setup({
 				end,
 			},
 			{
-        "catgoose/nvim-colorizer.lua",
+				"catgoose/nvim-colorizer.lua",
 				config = require("user.editor.colorsizer"),
 			},
 		},
@@ -361,7 +368,7 @@ require("lazy").setup({
 
 	{
 		"kevinhwang91/nvim-hlslens",
-		lazy = false ,
+		lazy = false,
 		config = require("user.other.hlslen"),
 	},
 	--[[ 'nacro90/numb.nvim', ]]

@@ -31,9 +31,8 @@ return function()
 	--[[ }) ]]
 
 	require("lspconfig").tinymist.setup({})
-	require("lspconfig").rust_analyzer.setup({
-		--[[ cmd = { 'rustup run stable rust-analyzer' }, ]]
-	})
+	--[[ require("lspconfig").rust_analyzer.setup({ ]]
+	--[[ }) ]]
 
 	require("lspconfig").ruff.setup({
 		init_options = {
