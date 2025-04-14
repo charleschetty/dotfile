@@ -175,7 +175,8 @@ require("lazy").setup({
 		"mrcjkb/rustaceanvim",
 		version = "^6", -- Recommended
 		lazy = false, -- This plugin is already lazy
-		config = require("user.lang.rt"),
+		ft = "rust",
+		--[[ config = require("user.lang.rt"), ]]
 	},
 	{
 

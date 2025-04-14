@@ -1,9 +1,5 @@
 -- find more here: https://www.nerdfonts.com/cheat-sheet
 return function()
-	local check_backspace = function()
-		local col = vim.fn.col(".") - 1
-		return col == 0 or vim.fn.getline("."):sub(col, col):match("%s")
-	end
 	local cmp = require("cmp")
 	local luasnip = require("luasnip")
 	local icons = {
@@ -52,8 +48,6 @@ return function()
 					luasnip.expand()
 				elseif luasnip.expand_or_jumpable() then
 					luasnip.expand_or_jump()
-				elseif check_backspace() then
-					fallback()
 				else
 					fallback()
 				end
