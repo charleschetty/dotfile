@@ -18,14 +18,14 @@ return function()
 	ft_gu("c")
 		:fmt({
 			cmd = "clang-format",
-			args = { "--style=Microsoft" },
+			args = { "--style=Google" },
 			stdin = true,
 		})
 		:lint("clang-tidy")
 	ft_gu("cpp")
 		:fmt({
 			cmd = "clang-format",
-			args = { "--style=Microsoft" },
+			args = { "--style=Google" },
 			stdin = true,
 		})
 		:lint("clang-tidy")
