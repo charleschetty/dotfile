@@ -39,7 +39,7 @@ local options = {
 }
 
 vim.opt.shortmess:append "c"
-vim.opt.spell = true
+vim.opt.spell = false
 vim.opt.spelllang = "en"
 for k, v in pairs(options) do
   vim.opt[k] = v
