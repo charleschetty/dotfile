@@ -44,5 +44,56 @@ return function()
 		{ "<leader>lr", "<cmd>Lspsaga rename<CR>", mode = "n", desc = "Rename" },
 		{ "<leader>ls", "<cmd>Telescope lsp_document_symbols<CR>", mode = "n", desc = "Document Symbols" },
 		{ "<leader>lS", "<cmd>Telescope lsp_dynamic_workspace_symbols<CR>", mode = "n", desc = "Workspace Symbols" },
+
+		{ "<leader>d", group = "dap" }, -- group
+		{
+			"<Leader>db",
+			"<Cmd>lua require('dap').toggle_breakpoint()<CR>",
+			mode = "n",
+			desc = "toggle_breakpoint",
+			{ noremap = true, silent = true },
+		},
+		{
+			"<Leader>dc",
+			"<Cmd>lua require('dap').continue()<CR>",
+			mode = "n",
+			desc = "continue",
+			{ noremap = true, silent = true },
+		},
+		{
+			"<Leader>dr",
+			"<Cmd>lua require('dap').repl.toggle({height = math.floor(vim.o.lines / 3)})<CR>",
+			mode = "n",
+			desc = "repl toogle",
+			{ noremap = true, silent = true },
+		},
+		{
+			"<Leader>di",
+			"<Cmd>lua require('dap').step_into()<CR>",
+			mode = "n",
+			desc = "step_into",
+			{ noremap = true, silent = true },
+		},
+		{
+			"<Leader>do",
+			"<Cmd>lua require('dap').step_out()<CR>",
+			desc = "step_out",
+			mode = "n",
+			{ noremap = true, silent = true },
+		},
+		{
+			"<Leader>dv",
+			"<Cmd>lua require('dap').step_over()<CR>",
+			desc = "step_over",
+			mode = "n",
+			{ noremap = true, silent = true },
+		},
+		{
+			"<Leader>dt",
+			"<Cmd>lua require('dap').terminate()<CR>",
+			desc = "terminate",
+			mode = "n",
+			{ noremap = true, silent = true },
+		},
 	})
 end

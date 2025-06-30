@@ -160,17 +160,38 @@ require("lazy").setup({
 	"nvim-telescope/telescope-ui-select.nvim",
 
 	------------------------------ dap ------------------------------
+	---
 	--todo
 
+	{
+
+		"mfussenegger/nvim-dap",
+		lazy = true,
+		cmd = {
+			"DapSetLogLevel",
+			"DapShowLog",
+			"DapContinue",
+			"DapToggleBreakpoint",
+			"DapToggleRepl",
+			"DapStepOver",
+			"DapStepInto",
+			"DapStepOut",
+			"DapTerminate",
+		},
+		dependencies = {
+			{
+				"rcarriga/nvim-dap-ui",
+				dependencies = {
+					"nvim-neotest/nvim-nio",
+				},
+				config = require("user.dap.dapui"),
+			},
+			"theHamsta/nvim-dap-virtual-text",
+		},
+		config = require("user.dap.dap"),
+	},
+
 	------------------------------ lang ------------------------------
-	--[[ { ]]
-	--[[ 	"simrat39/rust-tools.nvim", ]]
-	--[[ 	lazy = true, ]]
-	--[[ 	ft = "rust", ]]
-	--[[ 	config = require("user.lang.rt"), ]]
-	--[[ 	dependencies = { "nvim-lua/plenary.nvim" }, ]]
-	--[[ }, ]]
-	--[[]]
 	{
 		"mrcjkb/rustaceanvim",
 		version = "^6", -- Recommended
