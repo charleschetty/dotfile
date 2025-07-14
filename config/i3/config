@@ -249,6 +249,8 @@ for_window [class="CMakeSetup"] floating enable
 for_window [class="feh"] floating enable
 for_window [class="Tlp-UI"] floating enable
 for_window [class="steamwebhelper"] floating enable
+for_window [class="wechat"] floating enable
+for_window [class="TeamViewer"] floating enable
 # i3-gaps
 # smart_gaps off
 gaps inner 8
@@ -260,7 +262,7 @@ gaps outer 2
 exec --no-startup-id xautolock -time 5 -locker '~/.config/i3/lock.sh'
 exec --no-startup-id dunst
 # exec --no-startup-id bash ~/.config/i3/gummy.sh
-# exec --no-startup-id gummy start
+exec --no-startup-id gummy start
 #exec --no-startup-id sh ~/.config/i3/mon.sh
 exec_always --no-startup-id feh --bg-fill ~/Pictures/nord1.png
 #exec_always --no-startup-id  sh ~/.config/i3/start.sh
