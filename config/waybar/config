@@ -46,7 +46,7 @@
     "format": "{icon} {capacity}%",
     "format-icons": ["", "", "", "", "", "", "", "", ""],
     "format-full": "{icon} {capacity}%",
-    "format-charging": " {capacity}%",
+    "format-charging": "󱐌 {capacity}%",
     "tooltip": false
   },
   "clock": {
@@ -64,7 +64,7 @@
   },
   "cpu": {
     "interval": 1,
-    "format": "  {usage}%"
+    "format": " {usage}%"
   },
   "network": {
     "interval": 1,
