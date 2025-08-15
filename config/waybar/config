@@ -1,0 +1,97 @@
+{
+  "modules-left": [
+    "custom/launcher",
+    "hyprland/workspaces",
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "network",
+    "cpu",
+    "memory",
+    "temperature",
+    "pulseaudio",
+    "backlight",
+    "battery",
+    "tray"
+  ],
+  "custom/launcher": {
+    "format": " ",
+    "tooltip": false
+  },
+  "sway/workspaces": {
+    "disable-scroll": true
+  },
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{icon} {percent}%",
+    "format-icons": ["󰃝","󰃞","󰃟","󰃠"]
+  },
+  "pulseaudio": {
+    "scroll-step": 0,
+    "format": "{icon} {volume}%", 
+    "format-muted": " 0%",
+    "format-icons": {
+      "default": ["", "", ""]
+    },
+    "tooltip": false
+  },
+  "battery": {
+    "interval": 10,
+    "states": {
+      "warning": 20,
+      "critical": 10
+    },
+    "format": "{icon} {capacity}%",
+    "format-icons": ["", "", "", "", "", "", "", "", ""],
+    "format-full": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "tooltip": false
+  },
+  "clock": {
+    "interval": 1,
+    "format": "{:%I:%M %p}",
+    "tooltip": false,
+    "tooltip-format": "{:%A, %d %B %Y}\n<tt>{calendar}</tt>"
+  },
+  "memory": {
+    "interval": 1,
+    "format": " {percentage}%",
+    "states": {
+      "warning": 85
+    }
+  },
+  "cpu": {
+    "interval": 1,
+    "format": "  {usage}%"
+  },
+  "network": {
+    "interval": 1,
+    "format-wifi": " {bandwidthDownBytes}",
+    "format-ethernet": "  {ifname} ({ipaddr})",
+    "format-linked": " {essid} (No IP)",
+    "format-disconnected": "󰖪 {bandwidthDownBytes}",
+    "tooltip": false
+  },
+  "temperature": {
+    "hwmon-path": " /sys/class/hwmon/hwmon4/temp1_input",
+    "tooltip": false,
+    "format": " {temperatureC}°C"
+  },
+  "tray": {
+    "icon-size": 15,
+    "spacing": 5
+  }, 
+"hyprland/workspaces": {
+  "format": "{name}",
+  "on-click": "activate",
+  "format-icons": {
+    "urgent": "",
+    "active": "",
+    "default": ""
+  },
+  "sort-by-number": true
+}, 
+
+}
