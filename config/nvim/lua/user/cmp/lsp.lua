@@ -12,5 +12,6 @@ return function()
   vim.lsp.enable("tinymist")
   vim.lsp.enable("ruff")
   vim.lsp.enable("gopls")
+  vim.lsp.enable('zls')
 	require("user.cmp.handlersmason").setup()
 end
