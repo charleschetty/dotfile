@@ -166,8 +166,8 @@ bindsym XF86AudioRaiseVolume    exec --no-startup-id pactl set-sink-volume @DEFA
 bindsym XF86AudioMute           exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym XF86AudioMicMute        exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
-bindsym XF86MonBrightnessUp exec --no-startup-id light -A 2
-bindsym XF86MonBrightnessDown exec --no-startup-id light -U 2
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl -d intel_backlight -e4 -n2 set 2%+
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl -d intel_backlight -e4 -n2 set 2%-
 
 # notification
 
@@ -262,7 +262,7 @@ gaps outer 2
 exec --no-startup-id xautolock -time 5 -locker '~/.config/i3/lock.sh'
 exec --no-startup-id dunst
 # exec --no-startup-id bash ~/.config/i3/gummy.sh
-exec --no-startup-id gummy start
+# exec --no-startup-id gummy start
 #exec --no-startup-id sh ~/.config/i3/mon.sh
 exec_always --no-startup-id feh --bg-fill ~/Pictures/nord1.png
 #exec_always --no-startup-id  sh ~/.config/i3/start.sh
