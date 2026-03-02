@@ -1,7 +1,10 @@
 return function()
-	local configs = require("nvim-treesitter.configs")
+	local configs = require("nvim-treesitter")
+
+
+  --[[ require'nvim-treesitter'.install { 'rust', 'javascript', 'zig' }  ]]
 	configs.setup({
-		ensure_installed = {
+		install = {
 			"bash",
 			"bibtex",
 			"c",
