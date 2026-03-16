@@ -49,7 +49,7 @@ return function()
 			icons_enabled = true,
 			--theme = 'auto',
 			--[[ theme = nordic, ]]
-			theme = "catppuccin",
+			theme = "catppuccin-nvim",
     --[[ theme = 'onenord', ]]
 			component_separators = { left = "", right = "" },
 			section_separators = { left = "", right = "" },
