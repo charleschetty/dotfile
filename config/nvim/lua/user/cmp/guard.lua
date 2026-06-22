@@ -36,14 +36,19 @@ return function()
 	})
 
 	ft_gu("typescript,javascript,typescriptreact,markdown,html,json,jsonc,vue"):fmt("prettier")
-	ft_gu("rust"):fmt("rustfmt")
+	ft_gu("rust"):fmt({
+		cmd = "rustfmt",
+		args = { "--edition", "2024" },
+		stdin = true,
+	})
 	ft_gu("python"):fmt("ruff"):lint("ruff")
+	--	ft_gu("lua"):fmt("stylua")
+
 	ft_gu("lua"):fmt("stylua")
 	ft_gu("bash"):fmt("shfmt")
 	ft_gu("java"):fmt("google-java-format")
 
 	ft_gu("go"):fmt("gofmt")
-
 
 	ft_gu("zig"):fmt("zigfmt")
 end
