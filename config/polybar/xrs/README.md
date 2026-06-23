@@ -2,6 +2,10 @@
 
 A dwm-style status bar for X11.  Configuration is done by editing Rust source files.
 
+## Screenshot
+
+![screenshot](https://raw.githubusercontent.com/charleschetty/dotfile/main/config/polybar/xrs/screenshots/Screenshot_20260623_085626.png)
+
 > **Note:** This is an X11 program — it uses `x11rb` / `cairo-rs` and will
 > not work under Wayland.  Sway workspace support is included in the code path
 > (same i3 IPC protocol) but **has not been tested**.
