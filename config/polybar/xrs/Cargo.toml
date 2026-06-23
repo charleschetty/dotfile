@@ -14,3 +14,13 @@ nix = { version = "0.31", features = ["poll"] }
 
 [build-dependencies]
 cc = "1"
+
+[profile.release]
+opt-level = 3
+strip = true  # Automatically strip symbols from the binary.
+lto = "fat"
+panic = "abort"
+codegen-units = 1
+
+[build]
+rustflags = ["-C", "target-cpu=native"]
