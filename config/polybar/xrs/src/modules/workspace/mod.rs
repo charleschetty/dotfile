@@ -17,7 +17,10 @@ pub type Connection = (i32, UnixStream);
 pub fn init(state: &mut AppState) -> Option<Connection> {
     match config::WORKSPACE_TYPE {
         "i3" | "sway" => i3::init(state),
-        _ => { eprintln!("unsupported WORKSPACE_TYPE: {}", config::WORKSPACE_TYPE); None }
+        _ => {
+            eprintln!("unsupported WORKSPACE_TYPE: {}", config::WORKSPACE_TYPE);
+            None
+        }
     }
 }
 

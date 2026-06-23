@@ -4,13 +4,13 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-x11 = "2.21"
-nvml-wrapper = "0.10"
-cairo-sys-rs = { version = "0.20", features = ["xlib"] }
+x11rb = { version = "0.13", features = ["allow-unsafe-code"] }
+nvml-wrapper = "0.12"
+cairo-rs = { version = "0.22", features = ["xcb"] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 chrono = "0.4"
-libc = "0.2"
+nix = { version = "0.31", features = ["poll"] }
 
 [build-dependencies]
 cc = "1"

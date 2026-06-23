@@ -46,9 +46,7 @@ pub static LEFT: &[Module] = &[
     crate::modules::workspace::MODULE,
 ];
 
-pub static CENTER: &[Module] = &[
-    crate::modules::clock::MODULE,
-];
+pub static CENTER: &[Module] = &[crate::modules::clock::MODULE];
 
 pub static RIGHT: &[Module] = &[
     crate::modules::network::MODULE,

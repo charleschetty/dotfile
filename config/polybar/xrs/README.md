@@ -2,17 +2,16 @@
 
 A dwm-style status bar for X11.  Configuration is done by editing Rust source files.
 
-> **Note:** This is an X11 program — it uses `Xlib` / `cairo-xlib` directly and will
+> **Note:** This is an X11 program — it uses `x11rb` / `cairo-rs` and will
 > not work under Wayland.  Sway workspace support is included in the code path
 > (same i3 IPC protocol) but **has not been tested**.
 
 > This program was written primarily by **DeepSeek V4 Pro**.
 >
-> **Known issues — system tray:** The tray implementation has known
-> instability.  Tray icons may not appear until another application triggers a
-> refresh (e.g. `fcitx5` does not show until `flameshot` is launched alongside it).
-> When a tray client exits between refresh cycles, the tray area may not shrink
-> back to the correct width.
+> **Known issue: tray blank icon on exit**
+> Under certain timing conditions, a tray client's icon may leave a blank
+> space after it exits.  Starting any additional tray application (e.g.
+> `flameshot`, `steam`) forces a re-layout and clears it.
 
 ## Dependencies
 
@@ -23,11 +22,11 @@ The Rust crates are bindings on top of them.
 
 | system package    | Rust crate        | needed for          | optional?                     |
 |-------------------|-------------------|---------------------|-------------------------------|
-| `libx11`          | `x11`             | X11 window creation | no                            |
-| `cairo`           | `cairo-sys-rs`    | rendering           | no                            |
+| `libxcb`          | `x11rb`           | X11 protocol (XCB backend) | no                       |
+| `cairo`           | `cairo-rs`        | rendering           | no                            |
+| `libc`            | `nix`             | `select()` / fd ops | no — `nix` wraps `libc` internally |
 | `libpulse`        | — (C FFI)         | volume module       | yes — remove volume module    |
 | `nvidia-ml`       | `nvml-wrapper`    | GPU module          | yes — remove nvidia module    |
-| `libc`            | `libc`            | `select()` / fd ops | no — every Linux system has it |
 | `gcc` / `cc`      | `cc`              | compile pulse FFI helper | no — every Linux system has it |
 
 `nvidia-ml` ships with the NVIDIA driver (`/usr/lib/libnvidia-ml.so`).
@@ -35,12 +34,25 @@ If you don't have an NVIDIA GPU or the driver, remove `crate::modules::nvidia::M
 from `src/config.rs` — the crate still compiles because all NVML code lives inside
 `nvidia.rs` and is initialised lazily.
 
+### Hardcoded paths
+
+Several modules read from fixed sysfs / proc paths that may differ on your machine.
+Edit these in the corresponding module files:
+
+| module        | file                        | path to check                     |
+|---------------|-----------------------------|-----------------------------------|
+| CPU temp      | `modules/cpu_temp.rs`       | `/sys/class/thermal/thermal_zone8/temp` |
+| brightness    | `modules/brightness.rs`     | `/sys/class/backlight/intel_backlight/` |
+| battery       | `modules/battery.rs`        | `/sys/class/power_supply/BAT0/`   |
+| network       | `modules/network.rs`        | `/sys/class/net/wlan0/`           |
+| i3 workspace  | `modules/workspace/i3.rs`   | `$I3SOCK` / `$SWAYSOCK` / `$XDG_RUNTIME_DIR/i3/` |
+
 ## Test environment
 
 | component      | version              |
 |----------------|----------------------|
 | OS             | Arch Linux           |
-| X11            | libX11 1.8.13         |
+| X11            | x11rb 0.13 / libxcb 1.17.0 |
 | cairo          | 1.18.4               |
 | NVML           | API v13 (driver 610.43.02) |
 | PulseAudio     | libpulse 17.0         |
@@ -86,8 +98,8 @@ The arch icon is a perfect example.  It only needs a `draw` function.
 ```rust
 use super::*;
 
-pub unsafe fn draw(
-    cr: *mut cairo_sys::cairo_t, x: f64, bh: i32,
+pub fn draw(
+    cr: &cairo::Context, x: f64, bh: i32,
     _state: &AppState, dry_run: bool,
 ) -> f64 {
     super::simple_draw(cr, x, bh, config::FONT_SIZE_ICON, "hello", dry_run)
@@ -120,8 +132,8 @@ pub fn update(state: &mut AppState) {
 }
 
 // c)  Draw — called to render
-pub unsafe fn draw(
-    cr: *mut cairo_sys::cairo_t, x: f64, bh: i32,
+pub fn draw(
+    cr: &cairo::Context, x: f64, bh: i32,
     state: &AppState, dry_run: bool,
 ) -> f64 {
     let text = state.my_field.map(|v| format!("{}", v)).unwrap_or_default();
@@ -162,10 +174,10 @@ Stateful readers that need internal `prev_*` tracking (like `cpu::CpuState`, `ne
 
 ```
 src/
-├── main.rs            event loop, tray, dock (~140 lines)
+├── main.rs            event loop, tray (~200 lines)
 ├── config.rs          all tunables + module layout
 ├── draw.rs            cairo helpers + draw_all orchestrator
-├── tray.rs            system tray implementation
+├── tray.rs            system tray implementation (~220 lines)
 ├── icons.rs           Nerd Font codepoints
 ├── util.rs            read_int, pulse FFI
 └── modules/
