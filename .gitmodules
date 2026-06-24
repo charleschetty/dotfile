@@ -17,3 +17,6 @@
   path = zsh/zsh-autosuggestions
   url = https://github.com/zsh-users/zsh-autosuggestions
 
+[submodule "config/polybar/cbar-rs"]
+	path = config/polybar/cbar-rs
+	url = git@github.com:charleschetty/cbar-rs.git
