@@ -13,10 +13,13 @@
 [global]
     monitor = 0
     follow = mouse
-    geometry = "320x6-30+60"
+    width = 320
+    height = (0, 300)
+    origin = top-right
+    offset = (30, 60)
+    notification_limit = 6
     indicate_hidden = yes
     shrink = no
-    notification_height = 15
     separator_height = 1
     padding = 10
     horizontal_padding = 10
@@ -45,19 +48,11 @@
     sticky_history = yes
     history_length = 20
     always_run_script = true
-    startup_notification = false
-    verbosity = mesg
     corner_radius = 2
     force_xinerama = false
     mouse_left_click = do_action
     mouse_middle_click = close_all
     mouse_right_click = close_current
-
-
-[shortcuts]
-    close = ctrl+space
-    history = ctrl+shift+space
-    context = ctrl+shift+period
 
 
 [urgency_low]
