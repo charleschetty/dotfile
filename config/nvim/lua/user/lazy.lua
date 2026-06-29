@@ -208,13 +208,13 @@ require("lazy").setup({
 		dependencies = { "nvim-treesitter/nvim-treesitter", "nvim-tree/nvim-web-devicons" }, -- if you prefer nvim-web-devicons
 	},
 
-	{
-		"3rd/image.nvim",
-		lazy = true,
-		ft = "markdown",
-		config = require("user.lang.image"),
-		opts = {},
-	},
+	--[[ { ]]
+	--[[ 	"3rd/image.nvim", ]]
+	--[[ 	lazy = true, ]]
+	--[[ 	ft = "markdown", ]]
+	--[[ 	config = require("user.lang.image"), ]]
+	--[[ 	opts = {}, ]]
+	--[[ }, ]]
 
 	--[[ { ]]
 	--[[ 	url = "https://git.sr.ht/~p00f/clangd_extensions.nvim", ]]
@@ -288,10 +288,10 @@ require("lazy").setup({
 	},
 
 	------------------------------ editor ------------------------------
-	{
-		"LunarVim/bigfile.nvim",
-		lazy = false,
-	},
+	--[[ { ]]
+	--[[ 	"LunarVim/bigfile.nvim", ]]
+	--[[ 	lazy = false, ]]
+	--[[ }, ]]
 
 	{
 		"ojroques/nvim-bufdel",
@@ -459,5 +459,11 @@ require("lazy").setup({
 		dependencies = "kevinhwang91/promise-async",
 		event = "VeryLazy",
 		config = require("user.other.ufo"),
+	},
+
+	{
+		"lewis6991/gitsigns.nvim",
+		lazy = false, -- Necessary, or the plugin won't start at boot
+		opts = {},
 	},
 })

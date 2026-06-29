@@ -31,7 +31,7 @@ return function()
 		:lint("clang-tidy")
 	ft_gu("cuda"):fmt({
 		cmd = "clang-format",
-		args = { "--style=Microsoft" },
+		args = { "--style=Google" },
 		stdin = true,
 	})
 
