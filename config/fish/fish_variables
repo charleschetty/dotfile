@@ -1,0 +1,6 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR __fish_initialized:4300
+SETUVAR fifc_keybinding:\x09
+SETUVAR fifc_open_keybinding:ctrl\x2do
+SETUVAR fish_user_paths:/opt/cuda/bin\x1e/opt/cuda/include\x1e/home/charles/go/bin\x1e/home/charles/\x2elocal/bin

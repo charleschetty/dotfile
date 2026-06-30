@@ -1,0 +1,1 @@
+/home/charles/.config/fish/plugins/fzf.fish/conf.d/fzf.fish

@@ -1,0 +1,1 @@
+/home/charles/.config/fish/plugins/fifc/conf.d/fifc.fish

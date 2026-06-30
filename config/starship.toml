@@ -1,0 +1,173 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = "$os $username$directory$rust$golang$python$nodejs$cpp$cmake$conda$git_branch$git_status$git_state$fill$status$cmd_duration$time$line_break$character"
+
+palette = 'catppuccin_mocha'
+
+[os]
+disabled = false
+style = "fg:teal"
+
+[os.symbols]
+Arch = " "
+Ubuntu = " "
+Macos = " "
+Windows = "󰍲 "
+
+[username]
+show_always = true
+style_user = "fg:teal bold"
+style_root = "fg:red bold"
+format = '[$user]($style) '
+
+[directory]
+style = "fg:teal bold"
+format = "[$path]($style) "
+truncation_length = 10
+truncation_symbol = "…/"
+truncate_to_repo = false
+
+# [directory.substitutions]
+# "Documents" = "󰈙"
+# "Downloads" = ""
+# "Music" = "󰝚"
+# "Pictures" = ""
+# "Developer" = "󰲋"
+
+[git_branch]
+symbol = " "
+style = "fg:mauve bold"
+format = '[$symbol$branch]($style) '
+truncation_length = 32
+truncation_symbol = "…"
+
+[git_status]
+style = "fg:peach"
+format = '[$ahead_behind$stashed$conflicted$staged$modified$deleted$untracked]($style) '
+# p10k-style symbols with counts
+ahead = "⇡$count"
+behind = "⇣$count"
+diverged = "⇣$behind_count⇡$ahead_count"
+up_to_date = ""
+stashed = " *$count"
+conflicted = " ~$count"
+staged = " +$count"
+modified = " !$count"
+untracked = " ?$count"
+deleted = " ✘$count"
+renamed = " »$count"
+ignore_submodules = false
+
+[git_state]
+style = "fg:peach bold"
+format = '[$state( $progress_current/$progress_total)]($style) '
+
+[git_commit]
+style = "fg:yellow"
+format = '[@$hash]($style)'
+only_detached = true
+tag_disabled = true
+
+[nodejs]
+symbol = " "
+style = "fg:green"
+format = '[$symbol$version]($style) '
+
+[c]
+symbol = " "
+style = "fg:green"
+format = '[$symbol$version]($style) '
+detect_extensions = ["c", "h"]
+
+[cpp]
+symbol = " "
+style = "fg:green"
+format = '[$symbol$version]($style) '
+detect_extensions = ["cpp", "cc", "cxx", "hpp", "hh", "hxx", "cu", "cuh"]
+disabled = false
+
+[cmake]
+symbol = " "
+style = "fg:green"
+format = '[$symbol$version]($style) '
+
+[rust]
+symbol = "󱘗 "
+style = "fg:red"
+format = '[$symbol$version]($style) '
+
+[golang]
+symbol = " "
+style = "fg:blue"
+format = '[$symbol$version]($style) '
+
+[python]
+symbol = " "
+style = "fg:green"
+format = '[$symbol$version(\($virtualenv\))]($style) '
+
+[docker_context]
+symbol = " "
+style = "fg:blue"
+format = '[$symbol$context]($style) '
+
+[conda]
+symbol = " "
+style = "fg:green"
+format = '[$symbol$environment]($style) '
+ignore_base = false
+
+[time]
+disabled = false
+time_format = "%R"
+style = "fg:overlay2"
+format = '[ $time]($style)'
+
+[fill]
+symbol = "·"
+style = "fg:surface1"
+
+[line_break]
+disabled = false
+
+[character]
+disabled = false
+success_symbol = '[❯](bold fg:green)'
+error_symbol = '[❯](bold fg:red)'
+vimcmd_symbol = '[❮](bold fg:green)'
+
+[cmd_duration]
+show_milliseconds = false
+format = "took $duration "
+style = "fg:overlay2"
+disabled = false
+show_notifications = true
+min_time_to_notify = 45000
+
+[palettes.catppuccin_mocha]
+rosewater = "#f5e0dc"
+flamingo = "#f2cdcd"
+pink = "#f5c2e7"
+mauve = "#cba6f7"
+red = "#f38ba8"
+maroon = "#eba0ac"
+peach = "#fab387"
+yellow = "#f9e2af"
+green = "#a6e3a1"
+teal = "#94e2d5"
+sky = "#89dceb"
+sapphire = "#74c7ec"
+blue = "#89b4fa"
+lavender = "#b4befe"
+text = "#cdd6f4"
+subtext1 = "#bac2de"
+subtext0 = "#a6adc8"
+overlay2 = "#9399b2"
+overlay1 = "#7f849c"
+overlay0 = "#6c7086"
+surface2 = "#585b70"
+surface1 = "#45475a"
+surface0 = "#313244"
+base = "#1e1e2e"
+mantle = "#181825"
+crust = "#11111b"
