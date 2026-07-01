@@ -26,11 +26,11 @@ set -gx fzf_preview_dir_cmd 'eza -l --no-user --no-time --icons --no-permissions
 set -gx fzf_fd_opts --max-depth 1 --exclude={.git,.idea,.vscode,.sass-cache,node_modules,build,dist,vendor}
 
 # Add plugin functions to auto-load path (fzf.fish + fifc)
-# User functions (~/.config/fish/functions/) take precedence over plugins
+# User functions must come FIRST so they can override plugin functions
 set -g fish_function_path \
+    $fish_function_path \
     ~/.config/fish/plugins/fzf.fish/functions \
-    ~/.config/fish/plugins/fifc/functions \
-    $fish_function_path
+    ~/.config/fish/plugins/fifc/functions
 
 # ─── fifc: fzf-powered Tab completion (replaces zsh fzf-tab) ──────────
 # fd options for file/directory completion (depth=1 keeps it fast)

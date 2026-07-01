@@ -55,5 +55,11 @@ alias dt="gummy -t 5400 -b 4"
 alias sudo="sudo env PATH=\$PATH"
 alias n="ccfetch"
 alias intel_env="bash -c '. /opt/intel/oneapi/setvars.sh && exec fish'"
-alias op="open-pdf"
+alias opp="open-pdf"  # 'opp' not 'op' — avoids conflict with 1Password CLI
 alias opc="open-pdf-cd"
+
+# open-pdf/open-pdf-cd launch their own fzf — disable file path completion
+complete -c open-pdf -f
+complete -c open-pdf-cd -f
+complete -c opp -f
+complete -c opc -f
