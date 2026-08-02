@@ -72,6 +72,9 @@ keymaps["n|<leader>ps"] = { cmd = ":Lazy sync<CR>", options = { noremap = true, 
 keymaps["n|<leader>pS"] = { cmd = ":Lazy show<CR>", options = { noremap = true, silent = true, desc = "Lazy show" } }
 
 -- LSP
+-- Replace default gt with <leader>t for Trouble
+keymaps["n|<leader>t"] = { cmd = ":Trouble diagnostics toggle<CR>", options = { noremap = true, silent = true, desc = "Trouble" } }
+
 keymaps["n|<leader>la"] = { cmd = ":Lspsaga code_action<CR>", options = { noremap = true, silent = true, desc = "Code action" } }
 keymaps["n|<leader>ld"] = { cmd = ":Lspsaga show_buf_diagnostics<CR>", options = { noremap = true, silent = true, desc = "Document diagnostics" } }
 keymaps["n|<leader>lw"] = { cmd = ":Lspsaga show_workspace_diagnostics<CR>", options = { noremap = true, silent = true, desc = "Workspace diagnostics" } }

@@ -15,4 +15,10 @@ editor["kevinhwang91/nvim-hlslens"] = {
 	config = require("editor.hlslens"),
 }
 
+editor["kevinhwang91/nvim-ufo"] = {
+	dependencies = "kevinhwang91/promise-async",
+	event = "VeryLazy",
+	config = require("user.configs.ufo"),
+}
+
 return editor
