@@ -33,6 +33,7 @@ return function()
 			"vim",
 			"vue",
 			"yaml",
+			"toml",
 		},
 
 		--[[ ensure_installed = "maintained", ]]

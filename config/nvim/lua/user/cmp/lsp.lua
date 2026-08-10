@@ -13,6 +13,7 @@ return function()
   vim.lsp.enable("ruff")
   vim.lsp.enable("gopls")
 	vim.lsp.enable('zls')
+	vim.lsp.enable('racket_langserver')
 	--[[ vim.lsp.enable('leanls') ]]
 	require("user.cmp.handlersmason").setup()
 end
