@@ -194,7 +194,11 @@ require("lazy").setup({
 	------------------------------ lang ------------------------------
 	{
 		"mrcjkb/rustaceanvim",
-		version = "^6", -- Recommended
+		-- v9 起不再调用 Neovim 0.12 已废弃的 vim.lsp.get_buffers_by_client_id()，
+		-- 旧版 ^6 每次挂 rust-analyzer 都会刷 "… is deprecated" 警告。
+		-- （v9 的 breaking change 只有：不再支持 Neovim 0.11、去掉
+		--   .vscode/settings.json / ra-multiplex / tools.edition，本配置都没用。）
+		version = "^9",
 		lazy = false, -- This plugin is already lazy
 		ft = "rust",
 		--[[ config = require("user.lang.rt"), ]]

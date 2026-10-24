@@ -6,10 +6,8 @@ vim.filetype.add({
 	},
 })
 
--- 让 clangd 也服务 .asc 文件（在 user 层覆盖，不修改 modules 默认配置）
-vim.lsp.config("clangd", {
-	filetypes = { "c", "cpp", "objc", "objcpp", "cuda", "asc" },
-})
+-- NOTE: clangd 的 cmd / offsetEncoding 修补在 `user.configs.lsp-servers.clangd`，
+-- 那样才能在 server 启动前生效（放在这里时机太晚，首个 buffer 仍会用旧参数）。
 
 if vim.fn.executable("racket") == 1 then
 	local ok, _opts = pcall(require, "user.configs.lsp-servers.racket_langserver")
